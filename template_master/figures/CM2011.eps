@@ -1,0 +1,2506 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: MATLAB, The MathWorks, Inc. Version 8.1.0.604 (R2013a). Operating System: Linux 3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014 x86_64.
+%%Title: /home/lwang/my_research/confusion_matrix/sherc2011/CM2011_6.eps
+%%CreationDate: 01/22/2016  02:18:09
+%%DocumentNeededFonts: Helvetica
+%%DocumentProcessColors: Cyan Magenta Yellow Black
+%%LanguageLevel: 2
+%%Pages: 1
+%%BoundingBox:  -102    14   715   777
+%%EndComments
+
+%%BeginProlog
+% MathWorks dictionary
+/MathWorks 160 dict begin
+% definition operators
+/bdef {bind def} bind def
+/ldef {load def} bind def
+/xdef {exch def} bdef
+/xstore {exch store} bdef
+% operator abbreviations
+/c  /clip ldef
+/cc /concat ldef
+/cp /closepath ldef
+/gr /grestore ldef
+/gs /gsave ldef
+/mt /moveto ldef
+/np /newpath ldef
+/cm /currentmatrix ldef
+/sm /setmatrix ldef
+/rm /rmoveto ldef
+/rl /rlineto ldef
+/s {show newpath} bdef
+/sc {setcmykcolor} bdef
+/sr /setrgbcolor ldef
+/sg /setgray ldef
+/w /setlinewidth ldef
+/j /setlinejoin ldef
+/cap /setlinecap ldef
+/rc {rectclip} bdef
+/rf {rectfill} bdef
+% page state control
+/pgsv () def
+/bpage {/pgsv save def} bdef
+/epage {pgsv restore} bdef
+/bplot /gsave ldef
+/eplot {stroke grestore} bdef
+% orientation switch
+/portraitMode 0 def /landscapeMode 1 def /rotateMode 2 def
+% coordinate system mappings
+/dpi2point 0 def
+% font control
+/FontSize 0 def
+/FMS {/FontSize xstore findfont [FontSize 0 0 FontSize neg 0 0]
+  makefont setfont} bdef
+/reencode {exch dup where {pop load} {pop StandardEncoding} ifelse
+  exch dup 3 1 roll findfont dup length dict begin
+  { 1 index /FID ne {def}{pop pop} ifelse } forall
+  /Encoding exch def currentdict end definefont pop} bdef
+/isroman {findfont /CharStrings get /Agrave known} bdef
+/FMSR {3 1 roll 1 index dup isroman {reencode} {pop pop} ifelse
+  exch FMS} bdef
+/csm {1 dpi2point div -1 dpi2point div scale neg translate
+ dup landscapeMode eq {pop -90 rotate}
+  {rotateMode eq {90 rotate} if} ifelse} bdef
+% line types: solid, dotted, dashed, dotdash
+/SO { [] 0 setdash } bdef
+/DO { [.5 dpi2point mul 4 dpi2point mul] 0 setdash } bdef
+/DA { [6 dpi2point mul] 0 setdash } bdef
+/DD { [.5 dpi2point mul 4 dpi2point mul 6 dpi2point mul 4
+  dpi2point mul] 0 setdash } bdef
+% macros for lines and objects
+/L {lineto stroke} bdef
+/MP {3 1 roll moveto 1 sub {rlineto} repeat} bdef
+/AP {{rlineto} repeat} bdef
+/PDlw -1 def
+/W {/PDlw currentlinewidth def setlinewidth} def
+/PP {closepath eofill} bdef
+/DP {closepath stroke} bdef
+/MR {4 -2 roll moveto dup  0 exch rlineto exch 0 rlineto
+  neg 0 exch rlineto closepath} bdef
+/FR {MR stroke} bdef
+/PR {MR fill} bdef
+/L1i {{currentfile picstr readhexstring pop} image} bdef
+/tMatrix matrix def
+/MakeOval {newpath tMatrix currentmatrix pop translate scale
+0 0 1 0 360 arc tMatrix setmatrix} bdef
+/FO {MakeOval stroke} bdef
+/PO {MakeOval fill} bdef
+/PD {currentlinewidth 2 div 0 360 arc fill
+   PDlw -1 eq not {PDlw w /PDlw -1 def} if} def
+/FA {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arc tMatrix setmatrix stroke} bdef
+/PA {newpath tMatrix currentmatrix pop	translate 0 0 moveto scale
+  0 0 1 5 -2 roll arc closepath tMatrix setmatrix fill} bdef
+/FAn {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arcn tMatrix setmatrix stroke} bdef
+/PAn {newpath tMatrix currentmatrix pop translate 0 0 moveto scale
+  0 0 1 5 -2 roll arcn closepath tMatrix setmatrix fill} bdef
+/vradius 0 def /hradius 0 def /lry 0 def
+/lrx 0 def /uly 0 def /ulx 0 def /rad 0 def
+/MRR {/vradius xdef /hradius xdef /lry xdef /lrx xdef /uly xdef
+  /ulx xdef newpath tMatrix currentmatrix pop ulx hradius add uly
+  vradius add translate hradius vradius scale 0 0 1 180 270 arc 
+  tMatrix setmatrix lrx hradius sub uly vradius add translate
+  hradius vradius scale 0 0 1 270 360 arc tMatrix setmatrix
+  lrx hradius sub lry vradius sub translate hradius vradius scale
+  0 0 1 0 90 arc tMatrix setmatrix ulx hradius add lry vradius sub
+  translate hradius vradius scale 0 0 1 90 180 arc tMatrix setmatrix
+  closepath} bdef
+/FRR {MRR stroke } bdef
+/PRR {MRR fill } bdef
+/MlrRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lry uly sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 90 270 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 270 90 arc tMatrix setmatrix
+  closepath} bdef
+/FlrRR {MlrRR stroke } bdef
+/PlrRR {MlrRR fill } bdef
+/MtbRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lrx ulx sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 180 360 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 0 180 arc tMatrix setmatrix
+  closepath} bdef
+/FtbRR {MtbRR stroke } bdef
+/PtbRR {MtbRR fill } bdef
+/stri 6 array def /dtri 6 array def
+/smat 6 array def /dmat 6 array def
+/tmat1 6 array def /tmat2 6 array def /dif 3 array def
+/asub {/ind2 exch def /ind1 exch def dup dup
+  ind1 get exch ind2 get sub exch } bdef
+/tri_to_matrix {
+  2 0 asub 3 1 asub 4 0 asub 5 1 asub
+  dup 0 get exch 1 get 7 -1 roll astore } bdef
+/compute_transform {
+  dmat dtri tri_to_matrix tmat1 invertmatrix 
+  smat stri tri_to_matrix tmat2 concatmatrix } bdef
+/ds {stri astore pop} bdef
+/dt {dtri astore pop} bdef
+/db {2 copy /cols xdef /rows xdef mul dup 3 mul string
+  currentfile 
+  3 index 0 eq {/ASCIIHexDecode filter}
+  {/ASCII85Decode filter 3 index 2 eq {/RunLengthDecode filter} if }
+  ifelse exch readstring pop
+  dup 0 3 index getinterval /rbmap xdef
+  dup 2 index dup getinterval /gbmap xdef
+  1 index dup 2 mul exch getinterval /bbmap xdef pop pop}bdef
+/it {gs np dtri aload pop moveto lineto lineto cp c
+  cols rows 8 compute_transform 
+  rbmap gbmap bbmap true 3 colorimage gr}bdef
+/il {newpath moveto lineto stroke}bdef
+currentdict end def
+%%EndProlog
+
+%%BeginSetup
+MathWorks begin
+
+0 cap
+
+end
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+%%PageBoundingBox:  -102    14   715   777
+MathWorks begin
+bpage
+%%EndPageSetup
+
+%%BeginObject: obj1
+bplot
+
+/dpi2point 12 def
+portraitMode -1224 9324 csm
+
+    0     0  9810  9149 rc
+85 dict begin %Colortable dictionary
+/c0 { 0.000000 0.000000 0.000000 sr} bdef
+/c1 { 1.000000 1.000000 1.000000 sr} bdef
+/c2 { 0.900000 0.000000 0.000000 sr} bdef
+/c3 { 0.000000 0.820000 0.000000 sr} bdef
+/c4 { 0.000000 0.000000 0.800000 sr} bdef
+/c5 { 0.910000 0.820000 0.320000 sr} bdef
+/c6 { 1.000000 0.260000 0.820000 sr} bdef
+/c7 { 0.000000 0.820000 0.820000 sr} bdef
+c0
+1 j
+1 sg
+   0    0 9811 9150 rf
+6 w
+0 -7457 7603 0 0 7457 1275 686 4 MP
+PP
+-7603 0 0 -7457 7603 0 0 7457 1275 686 5 MP stroke
+gs 1275 686 7604 7458 rc
+/mwscm { [/Indexed /DeviceRGB 63
+  <
+    ffffff fafafa f6f6f6 f2f2f2 eeeeee eaeaea e6e6e6 e2e2e2 dedede dadada 
+    d6d6d6 d2d2d2 cecece cacaca c6c6c6 c2c2c2 bebebe bababa b6b6b6 b2b2b2 
+    aeaeae aaaaaa a5a5a5 a1a1a1 9d9d9d 999999 959595 919191 8d8d8d 898989 
+    858585 818181 7d7d7d 797979 757575 717171 6d6d6d 696969 656565 616161 
+    5d5d5d 595959 555555 505050 4c4c4c 484848 444444 404040 3c3c3c 383838 
+    343434 303030 2c2c2c 282828 242424 202020 1c1c1c 181818 141414 101010 
+    0c0c0c 080808 040404 000000 
+  >
+] setcolorspace } bdef mwscm
+gs np 1275 686 mt 0 7457 rl 7603 0 rl 0 -7457 rl cp c np
+[7603 0 0 7457 1275 686] cc
+<< % Image dictionary
+  /ImageType 1
+  /Width 30 /Height 30
+  /BitsPerComponent 8
+  /Decode [0 255]
+  /ImageMatrix [30.000000 0 0 30.000000 0 0]
+  /DataSource currentfile
+  /ASCII85Decode filter
+  /RunLengthDecode filter
+>>
+image
+!'0<E!!`<#!'9cQ!!Vil!'fKD!'fKD!''NL!!i)q!]U/cjT#9Ap](9tm/R,NirB'DirB'DirB'DirB'D
+irB'DirB'DirB'DirB*?#35aa5NDeF"Z6,W!!VTe!'fKD!'fKD!'fKD!':)Z!!W&r!!Vro!'9-?!'flO
+!!W,t!<k=N!!!>s!!"q;!!#7F!!3B*39'u=5N;_D5C`
+~>
+gr
+gr
+
+%%IncludeResource: font Helvetica
+/Helvetica /ISOLatin1Encoding 120 FMSR
+
+1284  852 mt 
+(0.90) s
+0 sg
+1351 1100 mt 
+(   ) s
+1351 1349 mt 
+(   ) s
+1351 1597 mt 
+(   ) s
+1351 1846 mt 
+(   ) s
+1351 2095 mt 
+(   ) s
+1351 2343 mt 
+(   ) s
+1351 2592 mt 
+(   ) s
+1351 2840 mt 
+(   ) s
+1351 3089 mt 
+(   ) s
+1351 3337 mt 
+(   ) s
+1351 3586 mt 
+(   ) s
+1351 3835 mt 
+(   ) s
+1351 4083 mt 
+(   ) s
+1351 4332 mt 
+(   ) s
+1351 4580 mt 
+(   ) s
+1351 4829 mt 
+(   ) s
+1351 5077 mt 
+(   ) s
+1351 5326 mt 
+(   ) s
+1351 5575 mt 
+(   ) s
+1351 5823 mt 
+(   ) s
+1351 6072 mt 
+(   ) s
+1351 6320 mt 
+(   ) s
+1351 6569 mt 
+(   ) s
+1351 6817 mt 
+(   ) s
+1351 7066 mt 
+(   ) s
+1351 7315 mt 
+(   ) s
+1351 7563 mt 
+(   ) s
+1351 7812 mt 
+(   ) s
+1351 8060 mt 
+(   ) s
+1605  852 mt 
+(   ) s
+1 sg
+1538 1100 mt 
+(0.91) s
+0 sg
+1605 1349 mt 
+(   ) s
+1605 1597 mt 
+(   ) s
+1605 1846 mt 
+(   ) s
+1605 2095 mt 
+(   ) s
+1605 2343 mt 
+(   ) s
+1605 2592 mt 
+(   ) s
+1605 2840 mt 
+(   ) s
+1605 3089 mt 
+(   ) s
+1605 3337 mt 
+(   ) s
+1605 3586 mt 
+(   ) s
+1605 3835 mt 
+(   ) s
+1605 4083 mt 
+(   ) s
+1605 4332 mt 
+(   ) s
+1605 4580 mt 
+(   ) s
+1605 4829 mt 
+(   ) s
+1605 5077 mt 
+(   ) s
+1605 5326 mt 
+(   ) s
+1605 5575 mt 
+(   ) s
+1605 5823 mt 
+(   ) s
+1605 6072 mt 
+(   ) s
+1605 6320 mt 
+(   ) s
+1605 6569 mt 
+(   ) s
+1605 6817 mt 
+(   ) s
+1605 7066 mt 
+(   ) s
+1605 7315 mt 
+(   ) s
+1605 7563 mt 
+(   ) s
+1605 7812 mt 
+(   ) s
+1605 8060 mt 
+(   ) s
+1858  852 mt 
+(   ) s
+1858 1100 mt 
+(   ) s
+1 sg
+1791 1349 mt 
+(1.00) s
+0 sg
+1858 1597 mt 
+(   ) s
+1858 1846 mt 
+(   ) s
+1858 2095 mt 
+(   ) s
+1858 2343 mt 
+(   ) s
+1858 2592 mt 
+(   ) s
+1858 2840 mt 
+(   ) s
+1858 3089 mt 
+(   ) s
+1858 3337 mt 
+(   ) s
+1858 3586 mt 
+(   ) s
+1858 3835 mt 
+(   ) s
+1858 4083 mt 
+(   ) s
+1858 4332 mt 
+(   ) s
+1858 4580 mt 
+(   ) s
+1858 4829 mt 
+(   ) s
+1858 5077 mt 
+(   ) s
+1858 5326 mt 
+(   ) s
+1858 5575 mt 
+(   ) s
+1858 5823 mt 
+(   ) s
+1858 6072 mt 
+(   ) s
+1858 6320 mt 
+(   ) s
+1858 6569 mt 
+(   ) s
+1858 6817 mt 
+(   ) s
+1858 7066 mt 
+(   ) s
+1858 7315 mt 
+(   ) s
+1858 7563 mt 
+(   ) s
+1858 7812 mt 
+(   ) s
+1858 8060 mt 
+(   ) s
+2112  852 mt 
+(   ) s
+2112 1100 mt 
+(   ) s
+2112 1349 mt 
+(   ) s
+1 sg
+2045 1597 mt 
+(1.00) s
+0 sg
+2112 1846 mt 
+(   ) s
+2112 2095 mt 
+(   ) s
+2112 2343 mt 
+(   ) s
+2112 2592 mt 
+(   ) s
+2112 2840 mt 
+(   ) s
+2112 3089 mt 
+(   ) s
+2112 3337 mt 
+(   ) s
+2112 3586 mt 
+(   ) s
+2112 3835 mt 
+(   ) s
+2112 4083 mt 
+(   ) s
+2112 4332 mt 
+(   ) s
+2112 4580 mt 
+(   ) s
+2112 4829 mt 
+(   ) s
+2112 5077 mt 
+(   ) s
+2112 5326 mt 
+(   ) s
+2112 5575 mt 
+(   ) s
+2112 5823 mt 
+(   ) s
+2112 6072 mt 
+(   ) s
+2112 6320 mt 
+(   ) s
+2112 6569 mt 
+(   ) s
+2112 6817 mt 
+(   ) s
+2112 7066 mt 
+(   ) s
+2112 7315 mt 
+(   ) s
+2112 7563 mt 
+(   ) s
+2112 7812 mt 
+(   ) s
+2112 8060 mt 
+(   ) s
+2365  852 mt 
+(   ) s
+2365 1100 mt 
+(   ) s
+2365 1349 mt 
+(   ) s
+2365 1597 mt 
+(   ) s
+1 sg
+2298 1846 mt 
+(0.89) s
+0 sg
+2365 2095 mt 
+(   ) s
+2365 2343 mt 
+(   ) s
+2365 2592 mt 
+(   ) s
+2365 2840 mt 
+(   ) s
+2365 3089 mt 
+(   ) s
+2365 3337 mt 
+(   ) s
+2365 3586 mt 
+(   ) s
+2365 3835 mt 
+(   ) s
+2365 4083 mt 
+(   ) s
+2365 4332 mt 
+(   ) s
+2365 4580 mt 
+(   ) s
+2365 4829 mt 
+(   ) s
+2365 5077 mt 
+(   ) s
+2365 5326 mt 
+(   ) s
+2365 5575 mt 
+(   ) s
+2365 5823 mt 
+(   ) s
+2365 6072 mt 
+(   ) s
+2365 6320 mt 
+(   ) s
+2365 6569 mt 
+(   ) s
+2365 6817 mt 
+(   ) s
+2365 7066 mt 
+(   ) s
+2365 7315 mt 
+(   ) s
+2365 7563 mt 
+(   ) s
+2365 7812 mt 
+(   ) s
+2365 8060 mt 
+(   ) s
+2618  852 mt 
+(   ) s
+2618 1100 mt 
+(   ) s
+2618 1349 mt 
+(   ) s
+2618 1597 mt 
+(   ) s
+2618 1846 mt 
+(   ) s
+1 sg
+2551 2095 mt 
+(0.88) s
+0 sg
+2618 2343 mt 
+(   ) s
+2618 2592 mt 
+(   ) s
+2618 2840 mt 
+(   ) s
+2618 3089 mt 
+(   ) s
+2618 3337 mt 
+(   ) s
+2618 3586 mt 
+(   ) s
+2618 3835 mt 
+(   ) s
+2618 4083 mt 
+(   ) s
+2618 4332 mt 
+(   ) s
+2618 4580 mt 
+(   ) s
+2618 4829 mt 
+(   ) s
+2618 5077 mt 
+(   ) s
+2618 5326 mt 
+(   ) s
+2618 5575 mt 
+(   ) s
+2618 5823 mt 
+(   ) s
+2618 6072 mt 
+(   ) s
+2618 6320 mt 
+(   ) s
+2618 6569 mt 
+(   ) s
+2618 6817 mt 
+(   ) s
+2618 7066 mt 
+(   ) s
+2618 7315 mt 
+(   ) s
+2618 7563 mt 
+(   ) s
+2618 7812 mt 
+(   ) s
+2618 8060 mt 
+(   ) s
+2872  852 mt 
+(   ) s
+2872 1100 mt 
+(   ) s
+2872 1349 mt 
+(   ) s
+2872 1597 mt 
+(   ) s
+2872 1846 mt 
+(   ) s
+2872 2095 mt 
+(   ) s
+1 sg
+2805 2343 mt 
+(0.91) s
+0 sg
+2872 2592 mt 
+(   ) s
+2872 2840 mt 
+(   ) s
+2872 3089 mt 
+(   ) s
+2872 3337 mt 
+(   ) s
+2872 3586 mt 
+(   ) s
+2872 3835 mt 
+(   ) s
+2872 4083 mt 
+(   ) s
+2872 4332 mt 
+(   ) s
+2872 4580 mt 
+(   ) s
+2872 4829 mt 
+(   ) s
+2872 5077 mt 
+(   ) s
+2872 5326 mt 
+(   ) s
+2872 5575 mt 
+(   ) s
+2872 5823 mt 
+(   ) s
+2872 6072 mt 
+(   ) s
+2872 6320 mt 
+(   ) s
+2872 6569 mt 
+(   ) s
+2872 6817 mt 
+(   ) s
+2872 7066 mt 
+(   ) s
+2872 7315 mt 
+(   ) s
+2872 7563 mt 
+(   ) s
+2872 7812 mt 
+(   ) s
+2872 8060 mt 
+(   ) s
+3125  852 mt 
+(   ) s
+3125 1100 mt 
+(   ) s
+3125 1349 mt 
+(   ) s
+3125 1597 mt 
+(   ) s
+3125 1846 mt 
+(   ) s
+3058 2095 mt 
+(0.12) s
+3125 2343 mt 
+(   ) s
+1 sg
+3058 2592 mt 
+(1.00) s
+0 sg
+3125 2840 mt 
+(   ) s
+3125 3089 mt 
+(   ) s
+3125 3337 mt 
+(   ) s
+3125 3586 mt 
+(   ) s
+3125 3835 mt 
+(   ) s
+3125 4083 mt 
+(   ) s
+3125 4332 mt 
+(   ) s
+3125 4580 mt 
+(   ) s
+3125 4829 mt 
+(   ) s
+3125 5077 mt 
+(   ) s
+3125 5326 mt 
+(   ) s
+3125 5575 mt 
+(   ) s
+3125 5823 mt 
+(   ) s
+3125 6072 mt 
+(   ) s
+3058 6320 mt 
+(0.08) s
+3125 6569 mt 
+(   ) s
+3125 6817 mt 
+(   ) s
+3125 7066 mt 
+(   ) s
+3125 7315 mt 
+(   ) s
+3125 7563 mt 
+(   ) s
+3125 7812 mt 
+(   ) s
+3125 8060 mt 
+(   ) s
+3379  852 mt 
+(   ) s
+3379 1100 mt 
+(   ) s
+3379 1349 mt 
+(   ) s
+3379 1597 mt 
+(   ) s
+3379 1846 mt 
+(   ) s
+3379 2095 mt 
+(   ) s
+3379 2343 mt 
+(   ) s
+3379 2592 mt 
+(   ) s
+1 sg
+3312 2840 mt 
+(1.00) s
+0 sg
+3379 3089 mt 
+(   ) s
+3379 3337 mt 
+(   ) s
+3379 3586 mt 
+(   ) s
+3379 3835 mt 
+(   ) s
+3379 4083 mt 
+(   ) s
+3379 4332 mt 
+(   ) s
+3379 4580 mt 
+(   ) s
+3379 4829 mt 
+(   ) s
+3379 5077 mt 
+(   ) s
+3379 5326 mt 
+(   ) s
+3379 5575 mt 
+(   ) s
+3379 5823 mt 
+(   ) s
+3379 6072 mt 
+(   ) s
+3379 6320 mt 
+(   ) s
+3379 6569 mt 
+(   ) s
+3379 6817 mt 
+(   ) s
+3379 7066 mt 
+(   ) s
+3379 7315 mt 
+(   ) s
+3379 7563 mt 
+(   ) s
+3379 7812 mt 
+(   ) s
+3379 8060 mt 
+(   ) s
+3632  852 mt 
+(   ) s
+3632 1100 mt 
+(   ) s
+3632 1349 mt 
+(   ) s
+3632 1597 mt 
+(   ) s
+3632 1846 mt 
+(   ) s
+3632 2095 mt 
+(   ) s
+3632 2343 mt 
+(   ) s
+3632 2592 mt 
+(   ) s
+3632 2840 mt 
+(   ) s
+1 sg
+3565 3089 mt 
+(1.00) s
+0 sg
+3632 3337 mt 
+(   ) s
+3632 3586 mt 
+(   ) s
+3632 3835 mt 
+(   ) s
+3632 4083 mt 
+(   ) s
+3632 4332 mt 
+(   ) s
+3632 4580 mt 
+(   ) s
+3632 4829 mt 
+(   ) s
+3632 5077 mt 
+(   ) s
+3632 5326 mt 
+(   ) s
+3632 5575 mt 
+(   ) s
+3632 5823 mt 
+(   ) s
+3632 6072 mt 
+(   ) s
+3632 6320 mt 
+(   ) s
+3632 6569 mt 
+(   ) s
+3632 6817 mt 
+(   ) s
+3632 7066 mt 
+(   ) s
+3632 7315 mt 
+(   ) s
+3632 7563 mt 
+(   ) s
+3632 7812 mt 
+(   ) s
+3632 8060 mt 
+(   ) s
+3886  852 mt 
+(   ) s
+3886 1100 mt 
+(   ) s
+3886 1349 mt 
+(   ) s
+3886 1597 mt 
+(   ) s
+3886 1846 mt 
+(   ) s
+3886 2095 mt 
+(   ) s
+3886 2343 mt 
+(   ) s
+3886 2592 mt 
+(   ) s
+3886 2840 mt 
+(   ) s
+3886 3089 mt 
+(   ) s
+1 sg
+3819 3337 mt 
+(1.00) s
+0 sg
+3886 3586 mt 
+(   ) s
+3886 3835 mt 
+(   ) s
+3886 4083 mt 
+(   ) s
+3886 4332 mt 
+(   ) s
+3886 4580 mt 
+(   ) s
+3886 4829 mt 
+(   ) s
+3886 5077 mt 
+(   ) s
+3886 5326 mt 
+(   ) s
+3886 5575 mt 
+(   ) s
+3886 5823 mt 
+(   ) s
+3886 6072 mt 
+(   ) s
+3886 6320 mt 
+(   ) s
+3886 6569 mt 
+(   ) s
+3886 6817 mt 
+(   ) s
+3819 7066 mt 
+(0.14) s
+3886 7315 mt 
+(   ) s
+3886 7563 mt 
+(   ) s
+3886 7812 mt 
+(   ) s
+3886 8060 mt 
+(   ) s
+4139  852 mt 
+(   ) s
+4139 1100 mt 
+(   ) s
+4139 1349 mt 
+(   ) s
+4139 1597 mt 
+(   ) s
+4139 1846 mt 
+(   ) s
+4139 2095 mt 
+(   ) s
+4139 2343 mt 
+(   ) s
+4139 2592 mt 
+(   ) s
+4139 2840 mt 
+(   ) s
+4139 3089 mt 
+(   ) s
+4139 3337 mt 
+(   ) s
+1 sg
+4072 3586 mt 
+(1.00) s
+0 sg
+4139 3835 mt 
+(   ) s
+4139 4083 mt 
+(   ) s
+4139 4332 mt 
+(   ) s
+4139 4580 mt 
+(   ) s
+4139 4829 mt 
+(   ) s
+4139 5077 mt 
+(   ) s
+4139 5326 mt 
+(   ) s
+4139 5575 mt 
+(   ) s
+4139 5823 mt 
+(   ) s
+4139 6072 mt 
+(   ) s
+4139 6320 mt 
+(   ) s
+4139 6569 mt 
+(   ) s
+4139 6817 mt 
+(   ) s
+4139 7066 mt 
+(   ) s
+4139 7315 mt 
+(   ) s
+4139 7563 mt 
+(   ) s
+4139 7812 mt 
+(   ) s
+4139 8060 mt 
+(   ) s
+4392  852 mt 
+(   ) s
+4392 1100 mt 
+(   ) s
+4392 1349 mt 
+(   ) s
+4392 1597 mt 
+(   ) s
+4392 1846 mt 
+(   ) s
+4392 2095 mt 
+(   ) s
+4392 2343 mt 
+(   ) s
+4392 2592 mt 
+(   ) s
+4392 2840 mt 
+(   ) s
+4392 3089 mt 
+(   ) s
+4392 3337 mt 
+(   ) s
+4392 3586 mt 
+(   ) s
+1 sg
+4325 3835 mt 
+(1.00) s
+0 sg
+4392 4083 mt 
+(   ) s
+4392 4332 mt 
+(   ) s
+4392 4580 mt 
+(   ) s
+4392 4829 mt 
+(   ) s
+4392 5077 mt 
+(   ) s
+4392 5326 mt 
+(   ) s
+4392 5575 mt 
+(   ) s
+4392 5823 mt 
+(   ) s
+4392 6072 mt 
+(   ) s
+4392 6320 mt 
+(   ) s
+4392 6569 mt 
+(   ) s
+4392 6817 mt 
+(   ) s
+4392 7066 mt 
+(   ) s
+4392 7315 mt 
+(   ) s
+4392 7563 mt 
+(   ) s
+4392 7812 mt 
+(   ) s
+4392 8060 mt 
+(   ) s
+4646  852 mt 
+(   ) s
+4646 1100 mt 
+(   ) s
+4646 1349 mt 
+(   ) s
+4646 1597 mt 
+(   ) s
+4646 1846 mt 
+(   ) s
+4646 2095 mt 
+(   ) s
+4646 2343 mt 
+(   ) s
+4646 2592 mt 
+(   ) s
+4646 2840 mt 
+(   ) s
+4646 3089 mt 
+(   ) s
+4646 3337 mt 
+(   ) s
+4646 3586 mt 
+(   ) s
+4646 3835 mt 
+(   ) s
+1 sg
+4579 4083 mt 
+(1.00) s
+0 sg
+4646 4332 mt 
+(   ) s
+4646 4580 mt 
+(   ) s
+4646 4829 mt 
+(   ) s
+4646 5077 mt 
+(   ) s
+4646 5326 mt 
+(   ) s
+4646 5575 mt 
+(   ) s
+4646 5823 mt 
+(   ) s
+4646 6072 mt 
+(   ) s
+4646 6320 mt 
+(   ) s
+4646 6569 mt 
+(   ) s
+4579 6817 mt 
+(0.09) s
+4646 7066 mt 
+(   ) s
+4646 7315 mt 
+(   ) s
+4646 7563 mt 
+(   ) s
+4646 7812 mt 
+(   ) s
+4646 8060 mt 
+(   ) s
+4899  852 mt 
+(   ) s
+4832 1100 mt 
+(0.09) s
+4899 1349 mt 
+(   ) s
+4899 1597 mt 
+(   ) s
+4899 1846 mt 
+(   ) s
+4899 2095 mt 
+(   ) s
+4899 2343 mt 
+(   ) s
+4899 2592 mt 
+(   ) s
+4899 2840 mt 
+(   ) s
+4899 3089 mt 
+(   ) s
+4899 3337 mt 
+(   ) s
+4899 3586 mt 
+(   ) s
+4899 3835 mt 
+(   ) s
+4899 4083 mt 
+(   ) s
+1 sg
+4832 4332 mt 
+(1.00) s
+0 sg
+4899 4580 mt 
+(   ) s
+4899 4829 mt 
+(   ) s
+4899 5077 mt 
+(   ) s
+4899 5326 mt 
+(   ) s
+4899 5575 mt 
+(   ) s
+4899 5823 mt 
+(   ) s
+4899 6072 mt 
+(   ) s
+4899 6320 mt 
+(   ) s
+4899 6569 mt 
+(   ) s
+4899 6817 mt 
+(   ) s
+4899 7066 mt 
+(   ) s
+4899 7315 mt 
+(   ) s
+4899 7563 mt 
+(   ) s
+4899 7812 mt 
+(   ) s
+4899 8060 mt 
+(   ) s
+5153  852 mt 
+(   ) s
+5153 1100 mt 
+(   ) s
+5153 1349 mt 
+(   ) s
+5153 1597 mt 
+(   ) s
+5153 1846 mt 
+(   ) s
+5153 2095 mt 
+(   ) s
+5153 2343 mt 
+(   ) s
+5153 2592 mt 
+(   ) s
+5153 2840 mt 
+(   ) s
+5153 3089 mt 
+(   ) s
+5153 3337 mt 
+(   ) s
+5153 3586 mt 
+(   ) s
+5153 3835 mt 
+(   ) s
+5153 4083 mt 
+(   ) s
+5153 4332 mt 
+(   ) s
+1 sg
+5086 4580 mt 
+(0.90) s
+0 sg
+5153 4829 mt 
+(   ) s
+5153 5077 mt 
+(   ) s
+5153 5326 mt 
+(   ) s
+5153 5575 mt 
+(   ) s
+5153 5823 mt 
+(   ) s
+5153 6072 mt 
+(   ) s
+5153 6320 mt 
+(   ) s
+5153 6569 mt 
+(   ) s
+5153 6817 mt 
+(   ) s
+5153 7066 mt 
+(   ) s
+5153 7315 mt 
+(   ) s
+5153 7563 mt 
+(   ) s
+5153 7812 mt 
+(   ) s
+5153 8060 mt 
+(   ) s
+5406  852 mt 
+(   ) s
+5406 1100 mt 
+(   ) s
+5406 1349 mt 
+(   ) s
+5406 1597 mt 
+(   ) s
+5406 1846 mt 
+(   ) s
+5406 2095 mt 
+(   ) s
+5339 2343 mt 
+(0.09) s
+5406 2592 mt 
+(   ) s
+5406 2840 mt 
+(   ) s
+5406 3089 mt 
+(   ) s
+5406 3337 mt 
+(   ) s
+5406 3586 mt 
+(   ) s
+5406 3835 mt 
+(   ) s
+5406 4083 mt 
+(   ) s
+5406 4332 mt 
+(   ) s
+5339 4580 mt 
+(0.10) s
+1 sg
+5339 4829 mt 
+(1.00) s
+0 sg
+5339 5077 mt 
+(0.09) s
+5406 5326 mt 
+(   ) s
+5406 5575 mt 
+(   ) s
+5406 5823 mt 
+(   ) s
+5406 6072 mt 
+(   ) s
+5406 6320 mt 
+(   ) s
+5406 6569 mt 
+(   ) s
+5406 6817 mt 
+(   ) s
+5406 7066 mt 
+(   ) s
+5406 7315 mt 
+(   ) s
+5406 7563 mt 
+(   ) s
+5406 7812 mt 
+(   ) s
+5406 8060 mt 
+(   ) s
+5660  852 mt 
+(   ) s
+5660 1100 mt 
+(   ) s
+5660 1349 mt 
+(   ) s
+5660 1597 mt 
+(   ) s
+5660 1846 mt 
+(   ) s
+5660 2095 mt 
+(   ) s
+5660 2343 mt 
+(   ) s
+5660 2592 mt 
+(   ) s
+5660 2840 mt 
+(   ) s
+5660 3089 mt 
+(   ) s
+5660 3337 mt 
+(   ) s
+5660 3586 mt 
+(   ) s
+5660 3835 mt 
+(   ) s
+5660 4083 mt 
+(   ) s
+5660 4332 mt 
+(   ) s
+5660 4580 mt 
+(   ) s
+5660 4829 mt 
+(   ) s
+1 sg
+5593 5077 mt 
+(0.82) s
+0 sg
+5660 5326 mt 
+(   ) s
+5660 5575 mt 
+(   ) s
+5660 5823 mt 
+(   ) s
+5660 6072 mt 
+(   ) s
+5660 6320 mt 
+(   ) s
+5660 6569 mt 
+(   ) s
+5660 6817 mt 
+(   ) s
+5660 7066 mt 
+(   ) s
+5660 7315 mt 
+(   ) s
+5660 7563 mt 
+(   ) s
+5660 7812 mt 
+(   ) s
+5660 8060 mt 
+(   ) s
+5913  852 mt 
+(   ) s
+5913 1100 mt 
+(   ) s
+5913 1349 mt 
+(   ) s
+5913 1597 mt 
+(   ) s
+5913 1846 mt 
+(   ) s
+5913 2095 mt 
+(   ) s
+5913 2343 mt 
+(   ) s
+5913 2592 mt 
+(   ) s
+5913 2840 mt 
+(   ) s
+5913 3089 mt 
+(   ) s
+5913 3337 mt 
+(   ) s
+5913 3586 mt 
+(   ) s
+5913 3835 mt 
+(   ) s
+5913 4083 mt 
+(   ) s
+5913 4332 mt 
+(   ) s
+5913 4580 mt 
+(   ) s
+5913 4829 mt 
+(   ) s
+5913 5077 mt 
+(   ) s
+1 sg
+5846 5326 mt 
+(1.00) s
+0 sg
+5913 5575 mt 
+(   ) s
+5913 5823 mt 
+(   ) s
+5913 6072 mt 
+(   ) s
+5913 6320 mt 
+(   ) s
+5913 6569 mt 
+(   ) s
+5913 6817 mt 
+(   ) s
+5913 7066 mt 
+(   ) s
+5913 7315 mt 
+(   ) s
+5913 7563 mt 
+(   ) s
+5913 7812 mt 
+(   ) s
+5913 8060 mt 
+(   ) s
+6166  852 mt 
+(   ) s
+6166 1100 mt 
+(   ) s
+6166 1349 mt 
+(   ) s
+6166 1597 mt 
+(   ) s
+6166 1846 mt 
+(   ) s
+6166 2095 mt 
+(   ) s
+6166 2343 mt 
+(   ) s
+6166 2592 mt 
+(   ) s
+6166 2840 mt 
+(   ) s
+6166 3089 mt 
+(   ) s
+6166 3337 mt 
+(   ) s
+6166 3586 mt 
+(   ) s
+6166 3835 mt 
+(   ) s
+6166 4083 mt 
+(   ) s
+6166 4332 mt 
+(   ) s
+6166 4580 mt 
+(   ) s
+6166 4829 mt 
+(   ) s
+6166 5077 mt 
+(   ) s
+6166 5326 mt 
+(   ) s
+1 sg
+6099 5575 mt 
+(1.00) s
+0 sg
+6166 5823 mt 
+(   ) s
+6166 6072 mt 
+(   ) s
+6166 6320 mt 
+(   ) s
+6166 6569 mt 
+(   ) s
+6166 6817 mt 
+(   ) s
+6166 7066 mt 
+(   ) s
+6166 7315 mt 
+(   ) s
+6166 7563 mt 
+(   ) s
+6166 7812 mt 
+(   ) s
+6166 8060 mt 
+(   ) s
+6420  852 mt 
+(   ) s
+6420 1100 mt 
+(   ) s
+6420 1349 mt 
+(   ) s
+6420 1597 mt 
+(   ) s
+6353 1846 mt 
+(0.11) s
+6420 2095 mt 
+(   ) s
+6420 2343 mt 
+(   ) s
+6420 2592 mt 
+(   ) s
+6420 2840 mt 
+(   ) s
+6420 3089 mt 
+(   ) s
+6420 3337 mt 
+(   ) s
+6420 3586 mt 
+(   ) s
+6420 3835 mt 
+(   ) s
+6420 4083 mt 
+(   ) s
+6420 4332 mt 
+(   ) s
+6420 4580 mt 
+(   ) s
+6420 4829 mt 
+(   ) s
+6420 5077 mt 
+(   ) s
+6420 5326 mt 
+(   ) s
+6420 5575 mt 
+(   ) s
+1 sg
+6353 5823 mt 
+(1.00) s
+0 sg
+6420 6072 mt 
+(   ) s
+6420 6320 mt 
+(   ) s
+6420 6569 mt 
+(   ) s
+6420 6817 mt 
+(   ) s
+6420 7066 mt 
+(   ) s
+6420 7315 mt 
+(   ) s
+6420 7563 mt 
+(   ) s
+6420 7812 mt 
+(   ) s
+6420 8060 mt 
+(   ) s
+6673  852 mt 
+(   ) s
+6673 1100 mt 
+(   ) s
+6673 1349 mt 
+(   ) s
+6673 1597 mt 
+(   ) s
+6673 1846 mt 
+(   ) s
+6673 2095 mt 
+(   ) s
+6673 2343 mt 
+(   ) s
+6673 2592 mt 
+(   ) s
+6673 2840 mt 
+(   ) s
+6673 3089 mt 
+(   ) s
+6673 3337 mt 
+(   ) s
+6673 3586 mt 
+(   ) s
+6673 3835 mt 
+(   ) s
+6673 4083 mt 
+(   ) s
+6673 4332 mt 
+(   ) s
+6673 4580 mt 
+(   ) s
+6673 4829 mt 
+(   ) s
+6673 5077 mt 
+(   ) s
+6673 5326 mt 
+(   ) s
+6673 5575 mt 
+(   ) s
+6673 5823 mt 
+(   ) s
+1 sg
+6606 6072 mt 
+(0.92) s
+0 sg
+6673 6320 mt 
+(   ) s
+6673 6569 mt 
+(   ) s
+6673 6817 mt 
+(   ) s
+6673 7066 mt 
+(   ) s
+6673 7315 mt 
+(   ) s
+6673 7563 mt 
+(   ) s
+6673 7812 mt 
+(   ) s
+6673 8060 mt 
+(   ) s
+6927  852 mt 
+(   ) s
+6927 1100 mt 
+(   ) s
+6927 1349 mt 
+(   ) s
+6927 1597 mt 
+(   ) s
+6927 1846 mt 
+(   ) s
+6927 2095 mt 
+(   ) s
+6927 2343 mt 
+(   ) s
+6927 2592 mt 
+(   ) s
+6927 2840 mt 
+(   ) s
+6927 3089 mt 
+(   ) s
+6927 3337 mt 
+(   ) s
+6927 3586 mt 
+(   ) s
+6927 3835 mt 
+(   ) s
+6927 4083 mt 
+(   ) s
+6927 4332 mt 
+(   ) s
+6927 4580 mt 
+(   ) s
+6927 4829 mt 
+(   ) s
+6927 5077 mt 
+(   ) s
+6927 5326 mt 
+(   ) s
+6927 5575 mt 
+(   ) s
+6927 5823 mt 
+(   ) s
+6927 6072 mt 
+(   ) s
+1 sg
+6860 6320 mt 
+(0.92) s
+0 sg
+6927 6569 mt 
+(   ) s
+6927 6817 mt 
+(   ) s
+6927 7066 mt 
+(   ) s
+6927 7315 mt 
+(   ) s
+6927 7563 mt 
+(   ) s
+6927 7812 mt 
+(   ) s
+6927 8060 mt 
+(   ) s
+7180  852 mt 
+(   ) s
+7180 1100 mt 
+(   ) s
+7180 1349 mt 
+(   ) s
+7180 1597 mt 
+(   ) s
+7180 1846 mt 
+(   ) s
+7180 2095 mt 
+(   ) s
+7180 2343 mt 
+(   ) s
+7180 2592 mt 
+(   ) s
+7180 2840 mt 
+(   ) s
+7180 3089 mt 
+(   ) s
+7180 3337 mt 
+(   ) s
+7180 3586 mt 
+(   ) s
+7180 3835 mt 
+(   ) s
+7180 4083 mt 
+(   ) s
+7180 4332 mt 
+(   ) s
+7180 4580 mt 
+(   ) s
+7180 4829 mt 
+(   ) s
+7113 5077 mt 
+(0.09) s
+7180 5326 mt 
+(   ) s
+7180 5575 mt 
+(   ) s
+7180 5823 mt 
+(   ) s
+7180 6072 mt 
+(   ) s
+7180 6320 mt 
+(   ) s
+1 sg
+7113 6569 mt 
+(1.00) s
+0 sg
+7113 6817 mt 
+(0.09) s
+7180 7066 mt 
+(   ) s
+7180 7315 mt 
+(   ) s
+7180 7563 mt 
+(   ) s
+7180 7812 mt 
+(   ) s
+7180 8060 mt 
+(   ) s
+7367  852 mt 
+(0.10) s
+7434 1100 mt 
+(   ) s
+7434 1349 mt 
+(   ) s
+7434 1597 mt 
+(   ) s
+7434 1846 mt 
+(   ) s
+7434 2095 mt 
+(   ) s
+7434 2343 mt 
+(   ) s
+7434 2592 mt 
+(   ) s
+7434 2840 mt 
+(   ) s
+7434 3089 mt 
+(   ) s
+7434 3337 mt 
+(   ) s
+7434 3586 mt 
+(   ) s
+7434 3835 mt 
+(   ) s
+7434 4083 mt 
+(   ) s
+7434 4332 mt 
+(   ) s
+7434 4580 mt 
+(   ) s
+7434 4829 mt 
+(   ) s
+7434 5077 mt 
+(   ) s
+7434 5326 mt 
+(   ) s
+7434 5575 mt 
+(   ) s
+7434 5823 mt 
+(   ) s
+7434 6072 mt 
+(   ) s
+7434 6320 mt 
+(   ) s
+7434 6569 mt 
+(   ) s
+1 sg
+7367 6817 mt 
+(0.82) s
+0 sg
+7434 7066 mt 
+(   ) s
+7434 7315 mt 
+(   ) s
+7434 7563 mt 
+(   ) s
+7434 7812 mt 
+(   ) s
+7434 8060 mt 
+(   ) s
+7687  852 mt 
+(   ) s
+7687 1100 mt 
+(   ) s
+7687 1349 mt 
+(   ) s
+7687 1597 mt 
+(   ) s
+7687 1846 mt 
+(   ) s
+7687 2095 mt 
+(   ) s
+7687 2343 mt 
+(   ) s
+7687 2592 mt 
+(   ) s
+7687 2840 mt 
+(   ) s
+7687 3089 mt 
+(   ) s
+7687 3337 mt 
+(   ) s
+7687 3586 mt 
+(   ) s
+7687 3835 mt 
+(   ) s
+7687 4083 mt 
+(   ) s
+7687 4332 mt 
+(   ) s
+7687 4580 mt 
+(   ) s
+7687 4829 mt 
+(   ) s
+7687 5077 mt 
+(   ) s
+7687 5326 mt 
+(   ) s
+7687 5575 mt 
+(   ) s
+7687 5823 mt 
+(   ) s
+7620 6072 mt 
+(0.08) s
+7687 6320 mt 
+(   ) s
+7687 6569 mt 
+(   ) s
+7687 6817 mt 
+(   ) s
+1 sg
+7620 7066 mt 
+(0.86) s
+0 sg
+7687 7315 mt 
+(   ) s
+7620 7563 mt 
+(0.11) s
+7687 7812 mt 
+(   ) s
+7687 8060 mt 
+(   ) s
+7940  852 mt 
+(   ) s
+7940 1100 mt 
+(   ) s
+7940 1349 mt 
+(   ) s
+7940 1597 mt 
+(   ) s
+7940 1846 mt 
+(   ) s
+7940 2095 mt 
+(   ) s
+7940 2343 mt 
+(   ) s
+7940 2592 mt 
+(   ) s
+7940 2840 mt 
+(   ) s
+7940 3089 mt 
+(   ) s
+7940 3337 mt 
+(   ) s
+7940 3586 mt 
+(   ) s
+7940 3835 mt 
+(   ) s
+7940 4083 mt 
+(   ) s
+7940 4332 mt 
+(   ) s
+7940 4580 mt 
+(   ) s
+7940 4829 mt 
+(   ) s
+7940 5077 mt 
+(   ) s
+7940 5326 mt 
+(   ) s
+7940 5575 mt 
+(   ) s
+7940 5823 mt 
+(   ) s
+7940 6072 mt 
+(   ) s
+7940 6320 mt 
+(   ) s
+7940 6569 mt 
+(   ) s
+7940 6817 mt 
+(   ) s
+7940 7066 mt 
+(   ) s
+1 sg
+7873 7315 mt 
+(1.00) s
+0 sg
+7940 7563 mt 
+(   ) s
+7940 7812 mt 
+(   ) s
+7940 8060 mt 
+(   ) s
+8194  852 mt 
+(   ) s
+8194 1100 mt 
+(   ) s
+8194 1349 mt 
+(   ) s
+8194 1597 mt 
+(   ) s
+8194 1846 mt 
+(   ) s
+8194 2095 mt 
+(   ) s
+8194 2343 mt 
+(   ) s
+8194 2592 mt 
+(   ) s
+8194 2840 mt 
+(   ) s
+8194 3089 mt 
+(   ) s
+8194 3337 mt 
+(   ) s
+8194 3586 mt 
+(   ) s
+8194 3835 mt 
+(   ) s
+8194 4083 mt 
+(   ) s
+8194 4332 mt 
+(   ) s
+8194 4580 mt 
+(   ) s
+8194 4829 mt 
+(   ) s
+8194 5077 mt 
+(   ) s
+8194 5326 mt 
+(   ) s
+8194 5575 mt 
+(   ) s
+8194 5823 mt 
+(   ) s
+8194 6072 mt 
+(   ) s
+8194 6320 mt 
+(   ) s
+8194 6569 mt 
+(   ) s
+8194 6817 mt 
+(   ) s
+8194 7066 mt 
+(   ) s
+8194 7315 mt 
+(   ) s
+1 sg
+8127 7563 mt 
+(0.89) s
+0 sg
+8194 7812 mt 
+(   ) s
+8194 8060 mt 
+(   ) s
+8447  852 mt 
+(   ) s
+8447 1100 mt 
+(   ) s
+8447 1349 mt 
+(   ) s
+8447 1597 mt 
+(   ) s
+8447 1846 mt 
+(   ) s
+8447 2095 mt 
+(   ) s
+8447 2343 mt 
+(   ) s
+8447 2592 mt 
+(   ) s
+8447 2840 mt 
+(   ) s
+8447 3089 mt 
+(   ) s
+8447 3337 mt 
+(   ) s
+8447 3586 mt 
+(   ) s
+8447 3835 mt 
+(   ) s
+8447 4083 mt 
+(   ) s
+8447 4332 mt 
+(   ) s
+8447 4580 mt 
+(   ) s
+8447 4829 mt 
+(   ) s
+8447 5077 mt 
+(   ) s
+8447 5326 mt 
+(   ) s
+8447 5575 mt 
+(   ) s
+8447 5823 mt 
+(   ) s
+8447 6072 mt 
+(   ) s
+8447 6320 mt 
+(   ) s
+8447 6569 mt 
+(   ) s
+8447 6817 mt 
+(   ) s
+8447 7066 mt 
+(   ) s
+8447 7315 mt 
+(   ) s
+8447 7563 mt 
+(   ) s
+1 sg
+8380 7812 mt 
+(1.00) s
+0 sg
+8447 8060 mt 
+(   ) s
+8701  852 mt 
+(   ) s
+8701 1100 mt 
+(   ) s
+8701 1349 mt 
+(   ) s
+8701 1597 mt 
+(   ) s
+8701 1846 mt 
+(   ) s
+8701 2095 mt 
+(   ) s
+8701 2343 mt 
+(   ) s
+8701 2592 mt 
+(   ) s
+8701 2840 mt 
+(   ) s
+8701 3089 mt 
+(   ) s
+8701 3337 mt 
+(   ) s
+8701 3586 mt 
+(   ) s
+8701 3835 mt 
+(   ) s
+8701 4083 mt 
+(   ) s
+8701 4332 mt 
+(   ) s
+8701 4580 mt 
+(   ) s
+8701 4829 mt 
+(   ) s
+8701 5077 mt 
+(   ) s
+8701 5326 mt 
+(   ) s
+8701 5575 mt 
+(   ) s
+8701 5823 mt 
+(   ) s
+8701 6072 mt 
+(   ) s
+8701 6320 mt 
+(   ) s
+8701 6569 mt 
+(   ) s
+8701 6817 mt 
+(   ) s
+8701 7066 mt 
+(   ) s
+8701 7315 mt 
+(   ) s
+8701 7563 mt 
+(   ) s
+8701 7812 mt 
+(   ) s
+1 sg
+8634 8060 mt 
+(1.00) s
+0 sg
+%%IncludeResource: font Helvetica
+/Helvetica /ISOLatin1Encoding 180 FMSR
+
+1465 8647 mt  -90 rotate
+(camel) s
+90 rotate
+1719 8617 mt  -90 rotate
+( bird1) s
+90 rotate
+1972 8507 mt  -90 rotate
+(plier) s
+90 rotate
+2226 8920 mt  -90 rotate
+(two-balls) s
+90 rotate
+2479 8745 mt  -90 rotate
+(woman) s
+90 rotate
+2732 8557 mt  -90 rotate
+(lamp) s
+90 rotate
+2986 8857 mt  -90 rotate
+(dinosaur) s
+90 rotate
+3239 8847 mt  -90 rotate
+(flamingo) s
+90 rotate
+3493 8657 mt  -90 rotate
+(laptop) s
+90 rotate
+3746 9038 mt  -90 rotate
+(snake-test) s
+90 rotate
+4000 8901 mt  -90 rotate
+(armadillo) s
+90 rotate
+4253 8994 mt  -90 rotate
+(myScissor) s
+90 rotate
+4506 8797 mt  -90 rotate
+(octopus) s
+90 rotate
+4760 8767 mt  -90 rotate
+(centaur) s
+90 rotate
+5013 8567 mt  -90 rotate
+(bird2) s
+90 rotate
+5267 8609 mt  -90 rotate
+(shark) s
+90 rotate
+5520 8407 mt  -90 rotate
+(cat) s
+90 rotate
+5774 8617 mt  -90 rotate
+(horse) s
+90 rotate
+6027 8547 mt  -90 rotate
+(alien) s
+90 rotate
+6280 8567 mt  -90 rotate
+(hand) s
+90 rotate
+6534 8912 mt  -90 rotate
+(man-test) s
+90 rotate
+6787 8607 mt  -90 rotate
+(santa) s
+90 rotate
+7041 8777 mt  -90 rotate
+(glasses) s
+90 rotate
+7294 8567 mt  -90 rotate
+(dog1) s
+90 rotate
+7548 8567 mt  -90 rotate
+(dog2) s
+90 rotate
+7801 8649 mt  -90 rotate
+(gorilla) s
+90 rotate
+8054 8507 mt  -90 rotate
+(ants) s
+90 rotate
+8308 8888 mt  -90 rotate
+(dino-ske) s
+90 rotate
+8561 8747 mt  -90 rotate
+(spiders) s
+90 rotate
+8815 8613 mt  -90 rotate
+(rabbit) s
+90 rotate
+ 744  874 mt 
+(camel) s
+ 774 1122 mt 
+( bird1) s
+ 884 1371 mt 
+(plier) s
+ 471 1619 mt 
+(two-balls) s
+ 646 1868 mt 
+(woman) s
+ 834 2117 mt 
+(lamp) s
+ 534 2365 mt 
+(dinosaur) s
+ 544 2614 mt 
+(flamingo) s
+ 734 2862 mt 
+(laptop) s
+ 353 3111 mt 
+(snake-test) s
+ 490 3359 mt 
+(armadillo) s
+ 397 3608 mt 
+(myScissor) s
+ 594 3857 mt 
+(octopus) s
+ 624 4105 mt 
+(centaur) s
+ 824 4354 mt 
+(bird2) s
+ 782 4602 mt 
+(shark) s
+ 984 4851 mt 
+(cat) s
+ 774 5099 mt 
+(horse) s
+ 844 5348 mt 
+(alien) s
+ 824 5597 mt 
+(hand) s
+ 479 5845 mt 
+(man-test) s
+ 784 6094 mt 
+(santa) s
+ 614 6342 mt 
+(glasses) s
+ 824 6591 mt 
+(dog1) s
+ 824 6839 mt 
+(dog2) s
+ 742 7088 mt 
+(gorilla) s
+ 884 7337 mt 
+(ants) s
+ 503 7585 mt 
+(dino-ske) s
+ 644 7834 mt 
+(spiders) s
+ 778 8082 mt 
+(rabbit) s
+4 w
+DO
+1401 8143 mt 1401  686 L
+1401  686 mt 1401  686 L
+1655 8143 mt 1655  686 L
+1655  686 mt 1655  686 L
+1908 8143 mt 1908  686 L
+1908  686 mt 1908  686 L
+2162 8143 mt 2162  686 L
+2162  686 mt 2162  686 L
+2415 8143 mt 2415  686 L
+2415  686 mt 2415  686 L
+2668 8143 mt 2668  686 L
+2668  686 mt 2668  686 L
+2922 8143 mt 2922  686 L
+2922  686 mt 2922  686 L
+3175 8143 mt 3175  686 L
+3175  686 mt 3175  686 L
+3429 8143 mt 3429  686 L
+3429  686 mt 3429  686 L
+3682 8143 mt 3682  686 L
+3682  686 mt 3682  686 L
+3936 8143 mt 3936  686 L
+3936  686 mt 3936  686 L
+4189 8143 mt 4189  686 L
+4189  686 mt 4189  686 L
+4442 8143 mt 4442  686 L
+4442  686 mt 4442  686 L
+4696 8143 mt 4696  686 L
+4696  686 mt 4696  686 L
+4949 8143 mt 4949  686 L
+4949  686 mt 4949  686 L
+5203 8143 mt 5203  686 L
+5203  686 mt 5203  686 L
+5456 8143 mt 5456  686 L
+5456  686 mt 5456  686 L
+5710 8143 mt 5710  686 L
+5710  686 mt 5710  686 L
+5963 8143 mt 5963  686 L
+5963  686 mt 5963  686 L
+6216 8143 mt 6216  686 L
+6216  686 mt 6216  686 L
+6470 8143 mt 6470  686 L
+6470  686 mt 6470  686 L
+6723 8143 mt 6723  686 L
+6723  686 mt 6723  686 L
+6977 8143 mt 6977  686 L
+6977  686 mt 6977  686 L
+7230 8143 mt 7230  686 L
+7230  686 mt 7230  686 L
+7484 8143 mt 7484  686 L
+7484  686 mt 7484  686 L
+7737 8143 mt 7737  686 L
+7737  686 mt 7737  686 L
+7990 8143 mt 7990  686 L
+7990  686 mt 7990  686 L
+8244 8143 mt 8244  686 L
+8244  686 mt 8244  686 L
+8497 8143 mt 8497  686 L
+8497  686 mt 8497  686 L
+8751 8143 mt 8751  686 L
+8751  686 mt 8751  686 L
+1275  810 mt 8878  810 L
+8878  810 mt 8878  810 L
+1275 1058 mt 8878 1058 L
+8878 1058 mt 8878 1058 L
+1275 1307 mt 8878 1307 L
+8878 1307 mt 8878 1307 L
+1275 1555 mt 8878 1555 L
+8878 1555 mt 8878 1555 L
+1275 1804 mt 8878 1804 L
+8878 1804 mt 8878 1804 L
+1275 2053 mt 8878 2053 L
+8878 2053 mt 8878 2053 L
+1275 2301 mt 8878 2301 L
+8878 2301 mt 8878 2301 L
+1275 2550 mt 8878 2550 L
+8878 2550 mt 8878 2550 L
+1275 2798 mt 8878 2798 L
+8878 2798 mt 8878 2798 L
+1275 3047 mt 8878 3047 L
+8878 3047 mt 8878 3047 L
+1275 3295 mt 8878 3295 L
+8878 3295 mt 8878 3295 L
+1275 3544 mt 8878 3544 L
+8878 3544 mt 8878 3544 L
+1275 3793 mt 8878 3793 L
+8878 3793 mt 8878 3793 L
+1275 4041 mt 8878 4041 L
+8878 4041 mt 8878 4041 L
+1275 4290 mt 8878 4290 L
+8878 4290 mt 8878 4290 L
+1275 4538 mt 8878 4538 L
+8878 4538 mt 8878 4538 L
+1275 4787 mt 8878 4787 L
+8878 4787 mt 8878 4787 L
+1275 5035 mt 8878 5035 L
+8878 5035 mt 8878 5035 L
+1275 5284 mt 8878 5284 L
+8878 5284 mt 8878 5284 L
+1275 5533 mt 8878 5533 L
+8878 5533 mt 8878 5533 L
+1275 5781 mt 8878 5781 L
+8878 5781 mt 8878 5781 L
+1275 6030 mt 8878 6030 L
+8878 6030 mt 8878 6030 L
+1275 6278 mt 8878 6278 L
+8878 6278 mt 8878 6278 L
+1275 6527 mt 8878 6527 L
+8878 6527 mt 8878 6527 L
+1275 6775 mt 8878 6775 L
+8878 6775 mt 8878 6775 L
+1275 7024 mt 8878 7024 L
+8878 7024 mt 8878 7024 L
+1275 7273 mt 8878 7273 L
+8878 7273 mt 8878 7273 L
+1275 7521 mt 8878 7521 L
+8878 7521 mt 8878 7521 L
+1275 7770 mt 8878 7770 L
+8878 7770 mt 8878 7770 L
+1275 8018 mt 8878 8018 L
+8878 8018 mt 8878 8018 L
+SO
+6 w
+1275  686 mt 8878  686 L
+1275 8143 mt 8878 8143 L
+1275  686 mt 1275 8143 L
+8878  686 mt 8878 8143 L
+1275 8143 mt 8878 8143 L
+1275  686 mt 1275 8143 L
+1401 8143 mt 1401 8143 L
+1401  686 mt 1401  686 L
+1655 8143 mt 1655 8143 L
+1655  686 mt 1655  686 L
+1908 8143 mt 1908 8143 L
+1908  686 mt 1908  686 L
+2162 8143 mt 2162 8143 L
+2162  686 mt 2162  686 L
+2415 8143 mt 2415 8143 L
+2415  686 mt 2415  686 L
+2668 8143 mt 2668 8143 L
+2668  686 mt 2668  686 L
+2922 8143 mt 2922 8143 L
+2922  686 mt 2922  686 L
+3175 8143 mt 3175 8143 L
+3175  686 mt 3175  686 L
+3429 8143 mt 3429 8143 L
+3429  686 mt 3429  686 L
+3682 8143 mt 3682 8143 L
+3682  686 mt 3682  686 L
+3936 8143 mt 3936 8143 L
+3936  686 mt 3936  686 L
+4189 8143 mt 4189 8143 L
+4189  686 mt 4189  686 L
+4442 8143 mt 4442 8143 L
+4442  686 mt 4442  686 L
+4696 8143 mt 4696 8143 L
+4696  686 mt 4696  686 L
+4949 8143 mt 4949 8143 L
+4949  686 mt 4949  686 L
+5203 8143 mt 5203 8143 L
+5203  686 mt 5203  686 L
+5456 8143 mt 5456 8143 L
+5456  686 mt 5456  686 L
+5710 8143 mt 5710 8143 L
+5710  686 mt 5710  686 L
+5963 8143 mt 5963 8143 L
+5963  686 mt 5963  686 L
+6216 8143 mt 6216 8143 L
+6216  686 mt 6216  686 L
+6470 8143 mt 6470 8143 L
+6470  686 mt 6470  686 L
+6723 8143 mt 6723 8143 L
+6723  686 mt 6723  686 L
+6977 8143 mt 6977 8143 L
+6977  686 mt 6977  686 L
+7230 8143 mt 7230 8143 L
+7230  686 mt 7230  686 L
+7484 8143 mt 7484 8143 L
+7484  686 mt 7484  686 L
+7737 8143 mt 7737 8143 L
+7737  686 mt 7737  686 L
+7990 8143 mt 7990 8143 L
+7990  686 mt 7990  686 L
+8244 8143 mt 8244 8143 L
+8244  686 mt 8244  686 L
+8497 8143 mt 8497 8143 L
+8497  686 mt 8497  686 L
+8751 8143 mt 8751 8143 L
+8751  686 mt 8751  686 L
+1275  810 mt 1275  810 L
+8878  810 mt 8878  810 L
+1275 1058 mt 1275 1058 L
+8878 1058 mt 8878 1058 L
+1275 1307 mt 1275 1307 L
+8878 1307 mt 8878 1307 L
+1275 1555 mt 1275 1555 L
+8878 1555 mt 8878 1555 L
+1275 1804 mt 1275 1804 L
+8878 1804 mt 8878 1804 L
+1275 2053 mt 1275 2053 L
+8878 2053 mt 8878 2053 L
+1275 2301 mt 1275 2301 L
+8878 2301 mt 8878 2301 L
+1275 2550 mt 1275 2550 L
+8878 2550 mt 8878 2550 L
+1275 2798 mt 1275 2798 L
+8878 2798 mt 8878 2798 L
+1275 3047 mt 1275 3047 L
+8878 3047 mt 8878 3047 L
+1275 3295 mt 1275 3295 L
+8878 3295 mt 8878 3295 L
+1275 3544 mt 1275 3544 L
+8878 3544 mt 8878 3544 L
+1275 3793 mt 1275 3793 L
+8878 3793 mt 8878 3793 L
+1275 4041 mt 1275 4041 L
+8878 4041 mt 8878 4041 L
+1275 4290 mt 1275 4290 L
+8878 4290 mt 8878 4290 L
+1275 4538 mt 1275 4538 L
+8878 4538 mt 8878 4538 L
+1275 4787 mt 1275 4787 L
+8878 4787 mt 8878 4787 L
+1275 5035 mt 1275 5035 L
+8878 5035 mt 8878 5035 L
+1275 5284 mt 1275 5284 L
+8878 5284 mt 8878 5284 L
+1275 5533 mt 1275 5533 L
+8878 5533 mt 8878 5533 L
+1275 5781 mt 1275 5781 L
+8878 5781 mt 8878 5781 L
+1275 6030 mt 1275 6030 L
+8878 6030 mt 8878 6030 L
+1275 6278 mt 1275 6278 L
+8878 6278 mt 8878 6278 L
+1275 6527 mt 1275 6527 L
+8878 6527 mt 8878 6527 L
+1275 6775 mt 1275 6775 L
+8878 6775 mt 8878 6775 L
+1275 7024 mt 1275 7024 L
+8878 7024 mt 8878 7024 L
+1275 7273 mt 1275 7273 L
+8878 7273 mt 8878 7273 L
+1275 7521 mt 1275 7521 L
+8878 7521 mt 8878 7521 L
+1275 7770 mt 1275 7770 L
+8878 7770 mt 8878 7770 L
+1275 8018 mt 1275 8018 L
+8878 8018 mt 8878 8018 L
+1275  686 mt 8878  686 L
+1275 8143 mt 8878 8143 L
+1275  686 mt 1275 8143 L
+8878  686 mt 8878 8143 L
+
+end %%Color Dict
+
+eplot
+%%EndObject
+
+epage
+end
+
+showpage
+
+%%Trailer
+%%EOF

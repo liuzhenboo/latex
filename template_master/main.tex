@@ -1,0 +1,109 @@
+%%UTF-8
+\documentclass[twoside,UTF8]{nputhesis}
+%\documentclass[oneside]{nputhesis}
+
+\CTEXsetup[name={第,章}]{chapter}
+
+\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}
+
+\usepackage[final]{pdfpages}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{graphicx}
+
+\usepackage{lipsum}
+
+\newcommand{\tnewroman}{\fontspec{Times New Roman}}
+\newcommand{\adobegothicstdb}{\fontspec{Adobe Gothic Std B}}
+\newcommand{\Centaur}{\fontspec{Centaur}}
+\usepackage[numbers,sort&compress]{natbib}
+
+\setlength{\bibsep}{0pt}
+\setlength{\abovecaptionskip}{0pt}%
+\setlength{\belowcaptionskip}{10pt}%
+
+
+\schoolno{10699}
+\classno{TP391}
+%\secretlevel{}
+\title[3D Shape Recognition and Retrieval Based on Depth Learning]{ 基于深度学习的三维形状识别与检索}
+\author[Lei Wang]{王磊}
+\authorno{2015260149}
+\major[Mathematics]{航空工程}
+\supervisor[Shuhui Bu]{布树辉}
+\applydate[February 2018]{2018~年~2~月}
+\support{本文研究得到国家自然基金(编号:61573284)资助。}
+
+\begin{document}
+%% 电子扫描封面添加处 原则是先将扫描图转换为pdf，然后再添加
+\includepdf{figures/封面.pdf} 
+\newpage
+
+\makecover  % 中英文封面
+\frontmatter
+
+\include{body/abstract}
+
+% 目录
+\tableofcontents 
+
+\mainmatter  % 
+
+% 第一章
+\include{body/ch-1}
+
+% 第二章
+\include{body/ch-2}
+
+% 第三章
+
+\include{body/ch-3}
+
+% 第四章 
+\include{body/ch-4}
+
+
+% 第五章
+\include{body/ch-5}
+
+
+\backmatter
+\bibliographystyle{nputhesis}
+% \bibliographystyle{plain}  
+\bibliography{ref}
+
+% 附录
+\backmatter
+\Appendix
+%This is appendix.
+
+% 致谢
+\Thanks
+在此论文完成之际，两年多的研究生学习生活也即将结束，回首往事，成长道路上的点点滴滴在眼前掠过，感慨良多。在这里衷心地向曾经关心和帮助过我的人致以谢意。
+
+向悉心培养与指导我的导师布树辉教授，致以最真挚的敬意和谢意！布老师指导学生总是春风化雨，润物无声。论文是在布老师的精心指导下完成的。在论文选题、理论、实验研究到撰写的整个过程中，处处渗透着导师无尽的心血。布老师丰富的实践经验、精益求精的科研作风与实事求是的学术态度以及对科学事业执着的追求精神将使我受益终身。对我影响最深的就是布老师在大年初三就投身科研的勤奋的钻研精神和他勤于思考问题善于创造性思维的习惯。他不仅授我知识、教我做人，还在思想、工作和生活等方面也予以无微不至的关怀。三年时间，布老师伴我成长，育我成才，我为教研室奉献青春深感荣幸。点点滴滴，深心铭感，浩瀚师恩，无以为报。谨向导师致以最诚挚的敬意和由衷的感谢！同时感谢刘贞报老师的关心和指导。
+
+整个研究生学习期间，教研室的各位兄弟姐妹给予我很多的关心和帮助，让我感受到大家庭般的温暖。感谢李城梁、韩鹏程、程少光、王旭斌、赵勇、孙林杰、邵海东、阎蒙、何必、樊大森、李洋、黄金鑫、太敏、王雅南师兄师姐；感谢张臻伟，杨君，贾真，吕剑锋，于忠良，卜士洋，刘文萌等同级同学，感谢张咪、范帝楷、程城、冷鹏宇、马文科、王伟、李清、贺宇、童品模等师弟师妹，大家互相关心、互相帮助，给我留下很多美好开心的回忆，感谢你们一直以来的支持和鼓励，尤其是在我完成论文期间对我的帮助。
+
+感谢我的家人和朋友，你们的默默鼓励和支持是我前进的最大动力。
+
+最后，由衷的感谢参加论文评审和答辩的各位专家和学者。
+
+%相关工作
+\Work
+% TODO 如何直接引用使参考文献的内容显示在这里
+
+\begin{enumerate}
+\item Bu S, Wang L, Han P, et al. 3D Shape Recognition and Retrieval based on Multi-modality Deep Learning[J]. Neurocomputing, 2017, 259.
+\item 专利：一种基于多视角信息融合的机器人三维形状识别方法
+\item 软件著作权：RTMapper在线实时快速地图构建与定位系统[简称RTMapper]V1.0
+\end{enumerate}
+
+
+% \statement
+\includepdf{figures/签字.pdf} 
+\newpage
+
+\end{document}

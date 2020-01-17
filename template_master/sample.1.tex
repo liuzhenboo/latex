@@ -1,0 +1,104 @@
+%%UTF-8
+\documentclass[twoside,UTF8]{nputhesis}
+%\documentclass[oneside]{nputhesis}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{graphicx}
+
+\usepackage{lipsum}
+
+\schoolno{00000}
+%\classno{}
+%\secretlevel{}
+\title[A Thesis Submitted For The Master Degree of Engineering]{基于深度学习的三维形状识别与检索}
+\author[Lei Wang]{王磊}
+\authorno{2015260149}
+\major[Mathematics]{航空工程}
+\supervisor[Shuhui Bu]{布树辉}
+\applydate[September 2017]{2017~年~3~月}
+\support{本文研究得到某某基金(编号:XXXXXXX)资助。}
+
+\begin{document}
+\makecover  % 中英文封面
+\frontmatter
+
+% 中文摘要
+\begin{abstract}  
+    因为\TeX 具有出色的公式和图表排版功能, 所以大部分期刊都要求作者投稿时使用
+    \TeX. 学生写论文时也多用 \TeX, 所以我们制作本模板以节省写毕业论文的时间 
+    (重用之前编辑的公式和图标).
+
+    本文简要介绍西北工业大学论文模板 (nputhesis) 的实现和使用.
+
+    { % 乱码测试
+        \noindent\hrulefill\\
+        {\centerline {\it 乱码模式开启}}
+        \lipsum[1-4]
+        {\centerline{\it 乱码模式关闭}}
+        \noindent\hrulefill
+    }
+    \begin{keywords}
+        论文模板, \LaTeX, 西工大 
+    \end{keywords}
+\end{abstract}
+
+% 英文摘要
+\begin{Abstract}
+
+    { % some meaningless words.
+        \noindent\hrulefill\\
+        {\centerline {\it 乱码模式开启}}
+        \lipsum[1-4]
+        {\centerline{\it 乱码模式关闭}}
+        \noindent\hrulefill
+    }
+    \begin{Keywords}
+        Thesis Template, \LaTeX, NPU
+    \end{Keywords}
+\end{Abstract}
+
+% 目录
+\tableofcontents 
+
+\mainmatter  % 
+\chapter{nputhesis 简介}
+\section{\TeX 和 \LaTeX 介绍}
+\section{book 文档类介绍}
+\section{nputhesis 运行环境}
+
+\begin{table}[h]
+    \caption{测试运行环境}
+    \centering
+    \begin{tabular}{ccc}
+        \toprule
+        操作系统    & \TeX 系统   & 版本 \\
+        \midrule
+        Windows 10  & TeXLive     & 2013 \\
+        CentOS 7    & TeXLive     & 2015 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\chapter{实现}
+\section{思路}
+\section{代码}
+
+
+\backmatter
+\bibliographystyle{nputhesis}
+\bibliography{ref}
+
+\Appendix
+This is appendix.
+
+\Thanks
+This is a thanks.
+
+\Work
+% TODO 如何直接引用使参考文献的内容显示在这里
+
+\statement
+\end{document}

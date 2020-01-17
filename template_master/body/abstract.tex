@@ -1,0 +1,37 @@
+% 中文摘要
+\begin{abstract}
+
+当今人工智能的发展取得了前所未有的成就，无人汽车、虚拟现实、家政机器人等越来越方便人们的生活。由于三维形状物体是人们与外界环境交互的桥梁，因此对三维形状的研究也成为了人工智能研究的方向之一。
+
+如何准确、高效的识别三维形状，其关键就是提取表达能力强、易于区分的三维形状特征。其中，如何设计有效的模型来提取特征是重中之重。三维形状含有比二维图像丰富的信息，例如视觉信息，几何拓扑信息，深度信息等等。在本文中，我们提出了融合视觉信息和几何信息的三维特征学习框架，它有效地结合了不同的模态数据，并通过深度学习来进一步提高单一特征的辨别能力。其中，卷积神经网络（CNN）作用于三维形状的视觉信息，卷积深度置信网络（CDBN）提取了三维形状的几何信息，然后利用两个独立的Deep Belief Networks（DBN）分别从视觉和几何特征中学习高层特征。最后，使用受限玻尔兹曼机（RBM）融合不同模态特征。该融合特征同时表达了三维形状的视觉信息和几何信息，因此具有很强的三维形状表达能力。
+
+%对于3D形状分析来说，一个有效和高效的特征是3D领域推广其应用的关键，其中主要挑战在于设计有效的高级特征。三维形状包含各种有用的信息，其中包括视觉信息，几何关系和其他类型属性。因此提取这些特征的策略是提取有效的三维形态特征的核心。在本文中，我们提出了一种新的三维特征学习框架，它有效地结合了不同的模态数据，通过深度学习来提高单一特征的辨别能力。利用卷积神经网络（CNN）和卷积深信息网络（CDBN）分别提取几何信息和视觉信息，然后利用两个独立的Deep Belief Networks（DBN）从几何和视觉特征中学习高层特征。最后，受限玻尔兹曼机（RBM）训练用于挖掘不同模态之间的深度特征相关性。
+
+于此同时，针对自主机器人的识别要求，探索了利用残缺信息进行三维形状识别，以往的提出的三维形状描述符，具有很强的学习高层次特征的能力，但其中大部分只是使用深度学习方法来提取高层特征，要求数据完备可用。而对于自主机器人而言，获取的信息大多数不具有完备性，因此，本文在对人类识别三维形状的机理的思考上，提出了同时结合深度视觉特征和各个特征之间的时空间关系的模型，来进行三维形状识别。具体而言，使用CNN作为“视觉系统”，利用其具有强大的提取视觉特征的能力，得到高效的视觉特征，然后，利用LSTM这个“记忆系统”学习视觉特征的时空顺序关系，从而得到三维形状特征。该特征综合考虑了从不同视角得到的三维视觉信息的相互关系，因此得到了较好效果。
+
+
+%同时，在过去的十几年中，一些工作创造性地提出了一些基于深度学习的三维形状描述符，它们具有很强的学习高层次特征的能力，但其中大部分只是使用深度学习方法来提取高层特征，要求数据完备可用。对于自主机器人等实际应用而言，它们不断地从物体上捕捉图像，因此只是利用有限的信息逐步执行物体识别。为了使三维形状识别与检索系统适合移动机器人与环境进行自主交互，需要使用模仿人类的空间相关图像来实现高精度的物体识别。在本文中，我们提出了一种新的三维形状识别和检索框架，它通过记忆机制同时学习高级特征和模型时空信息。具体而言，CNN是“视觉系统”，因为它具有很强的提取有效视觉特征的能力，而LSTM是“记忆系统”，用于学习视觉特征的时空顺序关系。
+
+    \begin{keywords}
+        3D形状， 识别， 检索， CNNs， LSTM， 深度学习， 多模态
+    \end{keywords}
+\end{abstract}
+
+% 英文摘要
+\begin{Abstract}
+
+The development of artificial intelligence today has made unprecedented achievements. Unmanned vehicles, virtual reality, domestic robots and other more and more convenient for people's lives. As three-dimensional shape object is a bridge between people and the external environment, the study of three-dimensional shape has also become one of the directions of artificial intelligence research.
+
+How to accurately and efficiently identify three-dimensional shape, the key is to extract the expression ability, easy to distinguish the three-dimensional shape features. Among them, how to design an effective model to extract features is the most important. Three-dimensional shapes contain more information than two-dimensional images, such as visual information, geometric topology information, depth information and so on. In this paper, we propose a three-dimensional feature learning framework that incorporates visual and geometric information that effectively combines different modal data and further enhances the discriminating power of a single feature through deep learning. Among them, the convolutional neural network (CNN) acts on the visual information of the three-dimensional shape. The convolution depth belief network (CDBN) extracts the geometric information of the three-dimensional shape and then uses two independent Deep Belief Networks (DBN) Features learning high-level features. Finally, a Restricted Boltzmann Machines (RBM) is used to fuse different modal features. The fusion feature expresses the visual information and geometric information of the three-dimensional shape at the same time, and therefore has strong ability of three-dimensional shape expression.
+
+
+At the same time, in view of the requirements of autonomous robots, we explored the use of incomplete information for three-dimensional shape recognition, the previous proposed three-dimensional shape descriptors, has a strong ability to learn high-level features, but most of them just use the depth learning method to extract high-level features, requiring complete data available. For autonomous robots, most of the acquired information is not complete. Therefore, in this paper, we consider the mechanism of human recognition of three-dimensional shape and put forward a model that combines both the deep visual features and the temporal-spatial relationships between the features. For three-dimensional shape recognition. In particular, using CNN as a ``visual system", utilizing its powerful ability of extracting visual features to obtain highly efficient visual features, and then using the ``memory system" of LSTM to learn the spatial-temporal relationship of visual features to obtain a three-dimensional shape feature. This feature takes into account the relationship between the three-dimensional visual information obtained from different perspectives and thus has a good effect.
+
+%For 3D shape analysis, an effective and efficient feature is the key to popularize its applications in 3D domain where the major challenge lies in designing an effective high-level feature. The three-dimensional shape contains various useful information including visual information, geometric relationships, and other type properties. Thus the strategy of exploring these characteristics is the core of extracting effective 3D shape features. In this paper, we propose a novel 3D feature learning framework which combines different modality data effectively to promote the discriminability of uni-modal feature by using deep learning. The geometric information and visual information are extracted by Convolutional Neural Networks (CNNs) and Convolutional Deep Belief Networks (CDBNs), respectively, and then two independent Deep Belief Networks (DBNs) are employed to learn high-level features from geometric and visual features. Finally, a Restricted Boltzmann Machine (RBM) is trained for mining the deep correlations between different modalities. 
+
+%In the past decade, some works creatively proposed kinds of 3D shape descriptors based on deep learning, which have the great ability to learn high-level features.However, most of them just use deep learning methods to extract high-level features, and they require the data completely available.For practical applications such as autonomous robots, they continuously capture images from objects and consequently the object recognition is performed incrementally just using limited information. In order to make the 3D shape recognition and retrieval system suitable for mobile robot to perform autonomous interacting with environment, it is necessary to achieve high accuracy object recognition using spatial-related images which imitates human beings. In this paper, we propose a novel 3D shape recognition and retrieval framework, which learns  high-level features and models spatial-temporal information through memory mechanism simultaneously. In detail, CNNs is `visual system' because it has a strong ability to extract the effective visual feature, while LSTM is `memory system' to learn the spatio-temporal sequential relationship of visual features.
+    \begin{Keywords}
+        3D Shape，  Recognition， Retrieval，  CNNs，  LSTM， Deep Learning， Multi Modality
+    \end{Keywords}
+\end{Abstract}
+

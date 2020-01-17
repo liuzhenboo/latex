@@ -1,0 +1,73 @@
+
+\pagestyle{empty}
+\voffset 0.8cm
+\begin{center}
+{\fontsize{36pt}{36pt}\hei 毕业
+\raisebox{0.2cm}{
+\begin{tabular}{c}
+\sihao\hei
+设计 \\[0.15cm]
+\sihao\hei
+论文 \\
+\end{tabular}}
+任务书}
+\end{center}
+
+
+{\noindent\sihao\hei 一、题目}\vspace{1ex}
+
+基于视觉的无人机飞行控制研究\vspace{1.5ex}
+
+{\noindent\sihao\hei 二、研究主要内容}\vspace{1ex}
+
+本课题来源于专题研究，研究的内容主要涉及三个方面：首先，需要建立飞行控制的动力学模型，利用飞行力学的知识和飞行控制的知识建立对无人机的飞行控制模型，从而期望可以获取对无人机飞行姿态的状态参数。具体而言，就是利用开源的FlightGear软件模拟真实的飞行情况，与其它的模拟飞行软件不同（比如微软的Flight Simulation等），FlightGear这款软件可以模拟真实的驾驶舱内各种仪表板的信息和驾驶舱外界环境，从而提供一种真实的飞行模拟实验。其次，需要通过C++编程实现对无人机的飞行姿态控制，需要建立C++ 与FlightGear之间的控制关系，通过对FlightGear提供的飞行姿态例子的参考，利用C++编程实现对无人机飞行姿态的控制，希望获得无人机飞行姿态参数。最后，搭建FlightGear飞行仿真平台。
+\vspace{2ex}
+
+{\noindent\sihao\hei 三、主要技术指标}
+\vspace{-5pt}
+\begin{enumerate}  \setlength{\itemsep}{-5pt}
+\item 建立飞行控制的动力学模型，通过C++编程实现控制无人机飞行姿态，在FlightGear飞行模拟软件上可以进行无人机飞行模拟的实验，最终，可以实现利用C++编程控制的无人机的自动飞行，并且获取其飞行姿态参数；
+\item 建立三维视景仿真系统
+\item 建立FlightGear飞行仿真平台。
+\item 四旋翼飞行仿真模拟。
+\end{enumerate}
+\vspace{1ex}
+
+{\noindent\sihao\hei 四、进度和要求} \vspace{1ex}
+
+\noindent
+\begin{itemize}
+\item 1-2周：确定毕业设计题目，完成相关的课程设计，并写出课程设计报告；
+\item 3-4周：熟悉与毕业设计题目相关的知识点，为总体的设计划分模块，并制定相关计划；
+\item 5-6周：学习Flightgear相关技术基本原理，熟悉该领域的发展情况、数学基础、专业知识等；
+\item 7-8周：建立飞行控制动力模型，编程实现自动飞行控制。
+\item 9-10周：学习四元数算法，如何在C++编程实现矩阵向量运算。
+\item 11-12周：建立六自由度非线性飞行动力学模型。
+\item 13-14周：基于三维视景仿真系统。
+\item 15-16周：搭建飞行仿真平台。
+\item 17-18周：根据相关算法进行实验、总结、分析。
+\item 19-20周：完成毕业设计论文，准备答辩。
+\end{itemize}
+
+{\noindent\sihao\hei 五、主要参考书及参考资料}
+\begin{enumerate}  \setlength{\itemsep}{-5pt}
+\vspace{-5pt}
+\item Jakob Engel, Ju ̈rgen Sturm, Daniel Cremers. Semi-Dense Visual Odometry for a Monocular Camera.
+\item Office of the Secretary of Defense Unmanned Aircraft Systems Roadmap, 2005-2030,Washington DC, 2005.  
+\item A.Davison,I.Reid, N.Molton,and O.Stasse. Mono SLAM: Real-time single camera SLAM. Trans. on Pattern Analysis and Machine Intelligence (TPAMI), 29, 2007.
+\item  C. Kerl, J. Sturm, and D. Cremers. Robust odometry estima- tion for RGB-D cameras. In ICRA, 2013.
+\item G. Klein and D. Murray. Parallel tracking and mapping for small AR workspaces. In Mixed and Augmented Reality (IS- MAR), 2007.
+\item W.Richard Stevens. TCP/IP Illustrated,Volume 1: The Protocols,1994
+\item Rodrigo Fonseca, Omprakash Gnawali, Kyle Jamieson, and Philip Levis. "Four Bit Wireless Link Estimation." In Proceedings of the Sixth Workshop on Hot Topics in Networks (HotNets VI), November 2007.
+\item Philip Levis, Neil Patel, David Culler and Scott Shenker. "A Self-Regulating Algorithm for Code Maintenance and Propagation in Wireless Sensor Networks." In Proceedings of the First USENIX Conference on Networked Systems Design and Implementation (NSDI), 2004.
+\item G. Klein and D. Murray. Improving the agility of keyframe- based SLAM. In ECCV, 2008.
+\item Jakob Engel and Thomas Sch ̈ops and Daniel Cremers Technical University Munich. LSD-SLAM: Large-Scale Direct
+\item Philip Levis, TinyOS Programming, October 27, 2006
+\end{enumerate}
+\vspace{1cm}
+\begin{center}
+\sihao\hei
+\mbox{学生 \underline{\hspace{2.6cm}} \hspace{0.4cm} 指导教师 \underline{\hspace{2.6cm}} \hspace{0.4cm} 教学院长 \underline{\hspace{2.6cm}}}
+\end{center}
+
+
