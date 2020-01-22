@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}Problem Review}{2}
+\contentsline {section}{\numberline {2}Assumptions and Definitions}{2}
+\contentsline {section}{\numberline {3}Problem Analysis}{4}
+\contentsline {section}{\numberline {4}The Development of Models}{4}
+\contentsline {subsection}{\numberline {4.1}Stage1: Water Pressure and Velocity}{4}
+\contentsline {subsubsection}{\numberline {4.1.1}Information and Analysis of Sprinklers}{8}
+\contentsline {subsection}{\numberline {4.2}Stage2: Scheduling the Irrigation}{11}
+\contentsline {subsubsection}{\numberline {4.2.1}Catch-can Analysis}{11}
+\contentsline {subsubsection}{\numberline {4.2.2}Layout of the Pipe Set}{15}
+\contentsline {subsubsection}{\numberline {4.2.3}Calculation of the Precipitation}{18}
+\contentsline {subsubsection}{\numberline {4.2.4}Scheduling the Irrigation Time}{20}
+\contentsline {subsection}{\numberline {4.3}Stage3: Schedule Design}{21}
+\contentsline {section}{\numberline {5}Evaluation of Results}{24}
+\contentsline {subsection}{\numberline {5.1}Comparison between Two Designs}{24}
+\contentsline {section}{\numberline {6}Strengths and Weaknesses}{24}
+\contentsline {subsection}{\numberline {6.1}Strengths}{24}
+\contentsline {subsection}{\numberline {6.2}Weaknesses}{25}
+\contentsline {section}{\numberline {7}Further Discussion}{25}

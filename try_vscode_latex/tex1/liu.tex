@@ -1,0 +1,145 @@
+%\documentclass{article}
+%\usepackage{xeCJK}
+%\setCJKmainfont{宋体}
+
+\documentclass[UTF8]{ctexart}
+\title{LaTex 学习}
+\author{Liu Zhenbo}
+\date{2020.01.20}
+% 调用宏包
+\usepackage{amsmath}
+\usepackage{xfrac}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{papersize={21cm,29.7cm}}
+\geometry{left=1cm,right=2cm,top=3cm,bottom=4cm}
+%页眉页脚
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{\author{liuzhenbo}}
+\chead{\date{2020}}
+\rhead{18829571198}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headwidth}{\textwidth}
+\renewcommand{\footrulewidth}{0pt}
+\usepackage{setspace}
+%行间距
+\onehalfspacing
+%增加或减小段间距
+\addtolength{\parskip}{.4em}
+%页边距设置
+\begin{document}
+\maketitle
+\tableofcontents
+
+
+\section{LaTex入门}
+
+\subsection{数学公式}
+
+\subsubsection{数学模式}
+\paragraph{行内模式}
+在正文的行文中，插入数学公式
+\subparagraph{行间模式}
+独立排列单独成行，自动居中
+
+\subsubsection{上下标号}
+$E=mc^2$.
+\[E=mc^2.\]
+\begin{equation}
+    E=mc^2.
+\end{equation}
+\[z = r\cdot e^{2\pi i}. \]
+
+\subsubsection{根式分式}
+$\sqrt{x}$, $\sfrac{1}{2}$
+\[ \sqrt{x},  \]
+\[\frac{1}{2}\]
+
+\subsubsection{运算符}
+\[ \pm\; \times\;  \div\; \cdot\; \cap\; \cup\;\geq\;\leq\;\neq\;\neq\;\approx\;\equiv\]
+$ \sum_{i=1}^n i\quad \prod_{i=1}^n $
+$ \sum\limits_{i=1}^n i\quad \prod\limits_{i=1}^n $
+\[\lim_{x\to0}x^2 \quad \int_a^b x^2 dx \]
+\[\lim \nolimits _{x\to0}x^2 \quad \int \nolimits_a^b x^2 dx \]
+\[ \iint\quad \iiint\quad \iiiint\quad \idotsint\]
+
+\subsubsection{省略号}
+\[x_1, x_2, \dots, x_n\quad 1,2, \cdots, n\quad \vdots\quad \ddots\]
+
+\subsubsection{矩阵}
+\[\begin{pmatrix} a&b\\c&d \end{pmatrix} \quad\]
+\[\begin{bmatrix} a&b\\c&d \end{bmatrix} \quad\]
+\[\begin{Bmatrix} a&b\\c&d \end{Bmatrix} \quad\]
+\[\begin{vmatrix} a&b\\c&d \end{vmatrix} \quad\]
+\[\begin{Vmatrix} a&b\\c&d \end{Vmatrix} \quad\]
+\newline
+
+Marry has a little matrix $(\begin{smallmatrix} a&b\\c&d \end{smallmatrix})$.
+
+\subsubsection{多行公式}
+\paragraph{长公式}
+\subparagraph{不对齐}
+\begin{multline}
+    x = a+b+c+{}\\
+    d+e+f+g
+    \end{multline}   
+\begin{multline*}
+    x = a+b+c+{}\\
+    d+e+f+g
+    \end{multline*}
+\subparagraph{对齐}
+\[\begin{aligned}
+x={}& a+b+c+{}\\
+&d+e+f+g
+\end{aligned}\]
+
+\paragraph{公式组}
+\begin{gather}
+a=b+c+d\\
+x=y+z
+\end{gather}
+\begin{align}
+a&=b+c+d\\
+x&=y+z
+\end{align}    
+
+\begin{gather*}
+a=b+c+d\\
+x=y+z
+.\end{gather*}
+\begin{align*}
+a&=b+c+d\\
+x&=y+z
+\end{align*}    
+
+\subsection{分段函数}
+\[y=\begin{cases}
+-x,\quad x\leq 0 \\
+x, \quad x>0
+\end{cases}\]
+
+\subsection{插入图片和表格}
+\includegraphics{liu.jpg}
+
+图片的宽度被缩放到页面的百分之八十，图片的总高度按照同比例缩放：
+
+\includegraphics[width=.8\textwidth]{liu.jpg}
+
+\subsection{表格}
+\begin{tabular}{|l|c|r|}
+\hline
+刘海洋&刘振博&LaTex入门\\
+\hline
+liuhaiyang & liuzhenbo & LaTex\\
+\hline
+\end{tabular}
+
+
+
+
+\end{document}
+

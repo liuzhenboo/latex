@@ -1,0 +1,26 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% latex Template
+%% The Template is writen by liuyu,I reference to it.
+%% Revised: NOV 21th, 2006
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{MCM}
+
+% packages
+%\RequirePackage{color}          % color image and color definition
+%\RequirePackage{calc}           % do size calculations
+%\RequirePackage{fancyhdr}       % personalize page header
+%\RequirePackage{graphicx}       % include graphics
+%\RequirePackage{ifthen}         % logic options
+%\RequirePackage{lastpage}       % refer to the number of last page
+\RequirePackage{listings}       % format source code
+
+
+\lstset{language=Matlab} \lstset{xleftmargin=1em,xrightmargin=1em}
+\lstset{frame=} \lstset{%backgroundcolor=\color{grey},
+commentstyle=\color{darkgreen},keywordstyle=\color{blue},%,caption=\lstname,basicstyle=\footnotesize,
+breaklines=true,columns=flexible,mathescape=fause }
+\lstset{framexleftmargin=0.5em,framexrightmargin=1em,framextopmargin=0em,basicstyle=\footnotesize,framexbottommargin=1em}
+%\lstdefinestyle{numbers}{numbers=left,stepnumber=1,numberstyle=\small,numbersep=1em}
+\lstloadlanguages{C,C++,Java,Matlab,Mathematica}

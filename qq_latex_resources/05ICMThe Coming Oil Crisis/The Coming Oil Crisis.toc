@@ -1,0 +1,34 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Problem restatement}{3}
+\contentsline {section}{\numberline {3}Task 1 Modeling the Depletion of Oil}{3}
+\contentsline {subsection}{\numberline {3.1}Assumptions:}{4}
+\contentsline {subsection}{\numberline {3.2}Notations:}{4}
+\contentsline {subsection}{\numberline {3.3}Modeling:}{4}
+\contentsline {subsection}{\numberline {3.4}Sensitivity Analysis:}{7}
+\contentsline {section}{\numberline {4}Task 2 The Influence of Economic, Demographic, Political and Environmental Factors on the Oil}{8}
+\contentsline {subsection}{\numberline {4.1}Assumptions}{8}
+\contentsline {subsection}{\numberline {4.2}The Influence of Economic Factors}{8}
+\contentsline {subsection}{\numberline {4.3}The Demographic Influence on Oil Consumption}{10}
+\contentsline {subsection}{\numberline {4.4}The Political Influence on Oil Consumption}{11}
+\contentsline {subsection}{\numberline {4.5}The Environmental Influence on Oil Consumption}{13}
+\contentsline {subsection}{\numberline {4.6}Limitations}{15}
+\contentsline {section}{\numberline {5}Task 3 The Sustainable Use of Oil}{15}
+\contentsline {subsection}{\numberline {5.1}Assumptions}{15}
+\contentsline {subsection}{\numberline {5.2}The Criterion of Rational Consumption Allocation of Oil Between Generations.}{15}
+\contentsline {subsection}{\numberline {5.3}Modeling the Rational Consumption Allocation}{16}
+\contentsline {subsection}{\numberline {5.4}The Policy}{18}
+\contentsline {subsection}{\numberline {5.5}Assumptions:}{18}
+\contentsline {subsection}{\numberline {5.6}Modeling:}{18}
+\contentsline {subsection}{\numberline {5.7}Limitations of the model}{19}
+\contentsline {subsection}{\numberline {5.8}Conclusion}{19}
+\contentsline {subsection}{\numberline {5.9}The Policy}{19}
+\contentsline {section}{\numberline {6}Task 5 Oil Exploitation vs. Natural Disasters}{20}
+\contentsline {subsection}{\numberline {6.1}Assumptions}{20}
+\contentsline {subsection}{\numberline {6.2}Modeling the short-term effects}{20}
+\contentsline {subsection}{\numberline {6.3}The Policy}{21}
+\contentsline {subsection}{\numberline {6.4}Long-term Effects}{21}
+\contentsline {section}{\numberline {7}Task 6 The Development of The Alternatives for Oil}{22}
+\contentsline {subsection}{\numberline {7.1}Assumptions}{22}
+\contentsline {subsection}{\numberline {7.2}Analysis}{22}
+\contentsline {subsection}{\numberline {7.3}Modeling}{23}
+\contentsline {subsection}{\numberline {7.4}Improvements of the Model}{25}

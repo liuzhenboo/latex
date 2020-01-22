@@ -1,0 +1,17 @@
+\contentsline {section}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {2}The energy absorbed by crushing cardboard}{4}
+\contentsline {section}{\numberline {3}Commonly available box types}{6}
+\contentsline {section}{\numberline {4}Some quick estimates}{7}
+\contentsline {subsection}{\numberline {4.1}Maximum safe acceleration}{7}
+\contentsline {subsection}{\numberline {4.2}Displacement and energy estimates, a reality check}{8}
+\contentsline {section}{\numberline {5}Trajectory Analysis and Cushion Location}{9}
+\contentsline {section}{\numberline {6}Impact simulation}{10}
+\contentsline {subsection}{\numberline {6.1}Assumptions}{10}
+\contentsline {subsection}{\numberline {6.2}Formulation}{12}
+\contentsline {subsection}{\numberline {6.3}Kinetics}{14}
+\contentsline {subsection}{\numberline {6.4}Stability and sensitivity analysis}{14}
+\contentsline {subsection}{\numberline {6.5}Configurations considered}{15}
+\contentsline {subsection}{\numberline {6.6}Data analysis}{15}
+\contentsline {subsection}{\numberline {6.7}Results}{18}
+\contentsline {section}{\numberline {7}An alternative idea: the stuntman could bail out mid-flight}{20}
+\contentsline {section}{\numberline {8}Recommendations}{21}

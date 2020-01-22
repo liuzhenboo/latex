@@ -1,0 +1,2063 @@
+This is TeX, Version 3.14159 (MiKTeX 2 UP 1) (preloaded format=latex 2000.11.28)  5 FEB 2009 19:57
+**A*Convenient*Truth*A*model*for*sea*level*rise*forecast.tex
+(A Convenient Truth A model for sea level rise forecast.tex
+LaTeX2e <2000/06/01>
+Babel <v3.6Z> and hyphenation patterns for english, french, german, ngerman, du
+mylang, nohyphenation, loaded.
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\base\article.cls
+Document Class: article 2000/05/19 v1.4b Standard LaTeX document class
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\base\size12.clo
+File: size12.clo 2000/05/19 v1.4b Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\amslatex\amsmath.sty
+Package: amsmath 2000/06/06 v2.12 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\amslatex\amstext.sty
+Package: amstext 1999/11/15 v2.0
+
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\amslatex\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\amslatex\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\amslatex\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2662.
+LaTeX Info: Redefining \] on input line 2663.
+)
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\base\latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 42.
+)
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 1996/11/03 v2.2b
+
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 1997/09/17 v2.2e
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 133.
+))
+(D:\PROGRA~1\latex\ctex\MiKTeX\LocalTeXMF\tex\latex\fancyhdr\fancyhdr.sty
+\headwidth=\dimen112
+)
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\graphics\graphics.sty
+Package: graphics 1999/02/16 v1.0l Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\miktex\graphics.cfg)
+Package graphics Info: Driver file: dvips.def on input line 80.
+
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\graphics\dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(D:\PROGRA~1\latex\ctex\MiKTeX\LocalTeXMF\tex\latex\ltxmisc\picinpar.sty
+Pictures in Paragraphs. Version 1.2a, July 13, 1993
+\br=\count99
+\bl=\count100
+\na=\count101
+\nb=\count102
+\tcdsav=\count103
+\tcl=\count104
+\tcd=\count105
+\tcn=\count106
+\cumtcl=\count107
+\cumpartcl=\count108
+\lftside=\dimen115
+\rtside=\dimen116
+\hpic=\dimen117
+\vpic=\dimen118
+\strutilg=\dimen119
+\picwd=\dimen120
+\topheight=\dimen121
+\ilg=\dimen122
+\lpic=\dimen123
+\lwindowsep=\dimen124
+\rwindowsep=\dimen125
+\cumpar=\dimen126
+\twa=\toks20
+\la=\toks21
+\ra=\toks22
+\ha=\toks23
+\pictoc=\toks24
+\rawtext=\box28
+\holder=\box29
+\windowbox=\box30
+\wartext=\box31
+\finaltext=\box32
+\aslice=\box33
+\bslice=\box34
+\wbox=\box35
+\wstrutbox=\box36
+\picbox=\box37
+\waslice=\box38
+\wbslice=\box39
+\fslice=\box40
+) (D:\PROGRA~1\latex\ctex\MiKTeX\LocalTeXMF\tex\latex\clatex\emlines2.sty)
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\generic\dvips\epsf.sty
+This is `epsf.tex' v2.7 <25 October 1996>
+\epsffilein=\read1
+\epsfframemargin=\dimen127
+\epsfframethickness=\dimen128
+\epsfrsize=\dimen129
+\epsftmp=\dimen130
+\epsftsize=\dimen131
+\epsfxsize=\dimen132
+\epsfysize=\dimen133
+\pspoints=\dimen134
+) (D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\graphics\color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\miktex\color.cfg)
+Package color Info: Driver file: dvips.def on input line 125.
+
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\graphics\dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(D:\PROGRA~1\latex\ctex\MiKTeX\LocalTeXMF\tex\latex\titlesec\titlesec.sty
+Package: titlesec 2000/06/14 v2.3.5 Sectioning titles
+\ttl@box=\box41
+\titlewidth=\dimen135
+)
+(./texcode/MCM.sty
+
+LaTeX Warning: You have requested package `./texcode/MCM',
+               but the package provides `MCM'.
+
+Package: MCM 
+(D:\PROGRA~1\latex\ctex\MiKTeX\LocalTeXMF\tex\latex\listings\listings.sty
+Package: listings 1999/07/12 v0.20 (Carsten Heinz)
+\lst@mode=\count109
+\lst@token=\toks25
+\lst@length=\count110
+\lst@width=\dimen136
+\lst@linewidth=\dimen137
+\lst@column=\count111
+\lst@pos=\count112
+\lst@lostspace=\dimen138
+\lst@lineno=\count113
+\c@lstlisting=\count114
+
+
+! LaTeX Error: No counter 'chapter' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.882     \newcounter{lstlisting}[chapter]
+                                          
+? 
+\lst@maxwidth=\dimen139
+(D:\PROGRA~1\latex\ctex\MiKTeX\LocalTeXMF\tex\latex\listings\lstpatch.sty
+File: lstpatch 2000/02/20 v0.20o (Carsten Heinz)
+)
+(D:\PROGRA~1\latex\ctex\MiKTeX\LocalTeXMF\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 1999/07/12 v0.20 (Carsten Heinz)
+\c@lstlabel=\count115
+\lst@skiplabels=\count116
+\lst@innerspread=\dimen140
+\lst@outerspread=\dimen141
+)
+(D:\PROGRA~1\latex\ctex\MiKTeX\LocalTeXMF\tex\latex\listings\listings.cfg))
+(D:\PROGRA~1\latex\ctex\MiKTeX\LocalTeXMF\tex\latex\listings\lstlang1.sty)
+(D:\PROGRA~1\latex\ctex\MiKTeX\LocalTeXMF\tex\latex\listings\lstlang2.sty)
+
+! Package keyval Error: xleftmargin undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.20 ...{xleftmargin=1em,xrightmargin=1em}
+                                          
+? 
+
+! Package keyval Error: xrightmargin undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.20 ...{xleftmargin=1em,xrightmargin=1em}
+                                          
+? 
+
+! Package keyval Error: breaklines undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.23 ...olumns=flexible,mathescape=fause }
+                                          
+? 
+
+! Package keyval Error: columns undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.23 ...olumns=flexible,mathescape=fause }
+                                          
+? 
+
+! Package keyval Error: framexleftmargin undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.24 ...otnotesize,framexbottommargin=1em}
+                                          
+? 
+
+! Package keyval Error: framexrightmargin undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.24 ...otnotesize,framexbottommargin=1em}
+                                          
+? 
+
+! Package keyval Error: framextopmargin undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.24 ...otnotesize,framexbottommargin=1em}
+                                          
+? 
+
+! Package keyval Error: framexbottommargin undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.24 ...otnotesize,framexbottommargin=1em}
+                                          
+? 
+(D:\PROGRA~1\latex\ctex\MiKTeX\LocalTeXMF\tex\latex\listings\lstlang1.sty)
+(D:\PROGRA~1\latex\ctex\MiKTeX\LocalTeXMF\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 1999/07/12 v0.20 (Carsten Heinz)
+))
+(D:\PROGRA~1\latex\ctex\MiKTeX\LocalTeXMF\tex\latex\lastpage\lastpage.sty
+Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
+ (JPG)
+)
+(A Convenient Truth A model for sea level rise forecast.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 27.
+
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2eLaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 27.
+
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 1995/01/05 v2.2e AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 27.
+
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 1995/01/05 v2.2e AMS font definitions
+) [1
+
+]
+Runaway argument?
+! Paragraph ended before \setlength was complete.
+<to be read again> 
+                   \par 
+l.32 
+     
+? 
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[1]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[2]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[3]
+File: fig01.eps Graphic file (type eps)
+ <fig01.eps>
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[4]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[5]
+File: fig02.eps Graphic file (type eps)
+ <fig02.eps>
+File: fig03.eps Graphic file (type eps)
+ <fig03.eps>
+File: fig04.eps Graphic file (type eps)
+ <fig04.eps>
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[6]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[7]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[8]
+Overfull \hbox (0.70645pt too wide) in paragraph at lines 408--410
+[][]$\OML/cmm/m/it/12 V\OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; t\OT1/cmr/m/n/12 ) 
+= \OML/cmm/m/it/12 V\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 S\OT1/cmr/m/n/12 (\OML/cm
+m/m/it/12 t\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; t\OT1/cmr/m/n/12 ) = 0$(necessar
+y con-di-tions for the ho-mo-ge-neous bound-
+ []
+
+! Extra }, or forgotten $.
+l.417 V(x,t)=\frac{a_0}{2}+\sum^\infty}
+                                       _{n=1}{a_ne^{-n^2\pi^2t/s^2}\c...
+? 
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[9]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[10]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[11]
+Overfull \hbox (13.25223pt too wide) in paragraph at lines 532--534
+[][]\OT1/cmr/m/n/12 The reader is en-cour-aged to con-sult for fur-ther in-ves-
+ti-ga-tion of the upwelling-
+ []
+
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[12]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[13]
+File: fig05.eps Graphic file (type eps)
+ <fig05.eps>
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[14]
+File: fig06.eps Graphic file (type eps)
+ <fig06.eps>
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[15]
+File: fig07.eps Graphic file (type eps)
+ <fig07.eps>
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[16]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[17]
+File: fig08.eps Graphic file (type eps)
+ <fig08.eps>
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[18]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[19]
+File: fig09.eps Graphic file (type eps)
+ <fig09.eps>
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[20]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[21]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[22]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[23]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[24]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[25] (./A.m
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.1 %
+      mathematical model simulation
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.3 %
+     constants
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.4 greenland_init_temp = -12.2; %
+                                  deg C, climate-charts.com for Danmar-
+? 
+
+Overfull \hbox (29.27283pt too wide) in paragraph at lines 4--5
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.6 h = 1498; %
+                initial average height of the ice sheet, m
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.7 Tl = -30; %
+                temperature of the bottom of the ice sheet
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.8 p_ice = 920; %
+                  kg/m^3
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.9 month2sec = 2592000; %
+                          seconds in a month
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.10 accu_rate = 0.025; %
+                         accumulation rate, m/month
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.11 flomin = 0.21; %
+                     minimum historical rate of SLR in Florida
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.12 flomax = 0.24; %
+                     maximum historical rate of SLR in Florida
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.13 floavg = 0.22; %
+                     average historical rate of SLR in Florida
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.15 %
+      import data from files
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.17 %
+      temperature models from EdGCM
+? 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\base\omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.30 %
+      sinusoidal 'monthly' temp
+? 
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[26]
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.55 ycount = 0; %
+                  keeps track of years
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.56 ann_tempchg = 0; %
+                       annual global temperature change
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.57 mcount = 0; %
+                  keeping track of how many month passes
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.59 SLR1 = 0; %
+                net sea level rise
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.65        %
+             record the temperature of the first month
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.66        inih = h1; %
+                        record the height of the first month
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.70     %
+           height after sublimation
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.71     %
+          S =
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.72     %
+          h1-(0.01/p_ice)*month2sec*exp(0.55-5724/(Ta+273.15)+3.53*
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.74     %
+           height after sublimation
+? 
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 76.
+(D:\PROGRA~1\latex\ctex\MiKTeX\TeXMF\tex\latex\base\omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 76.
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.85 ... ann_tempchg = ann_tempchg + Ta; %
+                                          temp change recording
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.88        %
+             thermal expansion effect in centimeters
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.91        %
+             melting effect in centimeters
+? 
+
+Overfull \hbox (17.2727pt too wide) in paragraph at lines 92--93
+[][][][][][][][][][][][][][][] 
+ []
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.93        +(floavg*ycount); %
+                               record the rise(local)
+? 
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[27]
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.100 ycount = 0; %
+                   keeps track of years
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.101 ann_tempchg = 0; %
+                        annual global temperature change
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.103 mcount = 0; %
+                   keeping track of how many month passes
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.104 SLR2 = 0; %
+                 net sea level rise
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.112        %
+              record the temperature of the first month
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.113        inih = h2; %
+                         record the height of the first month
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.117     %
+            height after sublimation
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.118     %
+           S =
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.119     %
+           h1-(0.01/p_ice)*month2sec*exp(0.55-5724/(Ta+273.15)+3.53
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.121     %
+            height after sublimation
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.132 ...ann_tempchg = ann_tempchg + Ta; %
+                                          temp change recording
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.135        %
+              thermal expansion effect incentimeters
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.138        %
+              melting effect in centimeters
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.140        *(ycount))+(floavg*ycount); %
+                                          record the rise(local);
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.141        %
+              record the rise
+? 
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[28]
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.148 ycount = 0; %
+                   keeps track of years
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.149 ann_tempchg = 0; %
+                        annual global temperature change
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.151 mcount = 0; %
+                   keeping track of how many month passes
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.152 SLR3 = 0; %
+                 net sea level rise
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.160        %
+              record the temperature of the first month
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.161        inih = h3; %
+                         record the height of the first month
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.165     %
+            height after sublimation
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.166     %
+           S =
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.167     %
+           h1-(0.01/p_ice)*month2sec*exp(0.55-5724/(Ta+273.15)+
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.169     %
+            height after sublimation
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.181        %
+              temp change recording
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.184        %
+              thermal expansion effect in centimeters
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.187        %
+              melting effect in centimeters
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.189        *(ycount))+(floavg*ycount); %
+                                          record the rise(local);
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.190        %
+              record the rise
+? 
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[29]
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.196 %
+       heat equation
+? 
+)
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[30]
+Overfull \hbox (0.4982pt too wide) in paragraph at lines 1048--1048
+ |[][]\OT1/cmr/bx/n/14.4 Appendix B Topo-log-i-cal Raster Ma-trix Cre-ation
+ []
+
+(./B.m
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.1 %
+      Create elevation data from GTOPO30 data
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.4 %
+     gathertopological data for 1' resolution
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.10 %
+       % Create an indexing matrix to quickly determine latitude and
+? 
+
+Overfull \hbox (5.27258pt too wide) in paragraph at lines 10--11
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.12 %
+       % lat = 31:(-1/60):24;
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.13 %
+       % lon = -90:(1/60):-78;
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.14 %
+       % latrow = 0;
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.15 %
+       % for latind = 1:length(lat)
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.16 %
+       %     for lonind = 1:length(lon)
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.17 %
+       %         latlonmat(latind, lonind).coord = [lat(latind) lon(l...
+? 
+
+Overfull \hbox (59.27313pt too wide) in paragraph at lines 17--18
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.18 %
+       %     end
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.19 %
+       % end
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.20 %
+      
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.21 %
+       I = find(datagridt == 1); %find all places where resolution needs
+? 
+
+Overfull \hbox (29.27283pt too wide) in paragraph at lines 21--22
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.23 %
+      
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.24 %
+       fprintf('Number of coordinates that need further resolution:
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.25 %
+       0.0f\n', length(I));
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.26 %
+      
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.27 %
+       % 3 text files needed to load data into NED latlon_to_elevation
+? 
+
+Overfull \hbox (17.2727pt too wide) in paragraph at lines 27--28
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.29 %
+       % (http://www.latlontoelevation.com/dem_consume.aspx)
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.30 %
+       % NED provides higher vertical resolution for more sensitive r...
+? 
+
+Overfull \hbox (47.27301pt too wide) in paragraph at lines 30--31
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.31 %
+       for txtind = 1:3
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.32 %
+           if length(I) > 2300
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.33 %
+              Imat(txtind).index = I(1:2300);
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.34 %
+              I = I(2301:end);
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.35 %
+           else
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.36 %
+              Imat(txtind).index = I;
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.37 %
+           end
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.38 %
+           fid = fopen(['finedata' num2str(txtind) '.txt'], 'a');
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.39 %
+           fprintf(fid, 'ID\tDD_LAT\tDD_LONG\n');
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.40 %
+           n = -1;
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.41 %
+           for LLind = Imat(txtind).index'
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.42 %
+               n = n+1;
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.43 %
+               LLcoord = latlonmat(LLind).coord;
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.44 %
+               LLlat = LLcoord(1); LLlon = LLcoord(2);
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.45 %
+               fprintf(fid, '%0.0f\t%f\t%f\n', n, LLlat, LLlon);
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.46 %
+           end
+? 
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[31]
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.47 %
+           fclose(fid);
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.48 %
+       end
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.49 %
+       Read back in the data from the website output and insert into ...
+? 
+
+Overfull \hbox (65.2732pt too wide) in paragraph at lines 49--50
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.50 %
+       map - header manually removed
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.51 %
+       fid = fopen('outdata1.txt', 'r');
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.52 %
+       C = textscan(fid, '%n%n%n%n%*[^\n]');
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.53 %
+       eledata(1).out = C{4};
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.54 %
+       fclose(fid);
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.55 %
+      
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.56 %
+       fid = fopen('outdata2.txt', 'r');
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.57 %
+       C = textscan(fid, '%n%n%n%n%*[^\n]');
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.58 %
+       eledata(2).out = C{4};
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.59 %
+       fclose(fid);
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.60 %
+      
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.61 %
+       fid = fopen('outdata3.txt', 'r');
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.62 %
+       C = textscan(fid, '%n%n%n%n%*[^\n]');
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.63 %
+       eledata(3).out = C{4};
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.64 %
+       fclose(fid);
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.68 datagridt(isnan(datagrid)) = -50; %
+                                        rescale the ocean color to a ...
+? 
+
+Overfull \hbox (41.27295pt too wide) in paragraph at lines 68--69
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[32] (./C.m
+Overfull \hbox (11.27264pt too wide) in paragraph at lines 3--4
+[][][][][][][][][][][][][] 
+ []
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.6 SLR =slr(iii)/100; %
+                        meters risen above sea level
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.10 %
+      land that is uder sea level but not yet submerged
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.16 ... = [X-1 X+1]; nindY = [Y-1 Y+1]; %
+                                          create a matrix of
+? 
+
+Overfull \hbox (17.2727pt too wide) in paragraph at lines 16--17
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.31         %
+              if a neighbor is part of the ocean
+? 
+
+Overfull \hbox (23.27277pt too wide) in paragraph at lines 48--49
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[33]
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.51 %
+      datagrid2(MindexLat, MindexLon) = 1000;
+? 
+
+Package Listings Warning: String constant exceeds line on input line 55.
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.56 areas:%
+            0.0f\n', bodycount);
+? 
+)
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[34] (./D.m
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.2 city(1).pop= 437125; %
+                          metro area
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.4 city(2).pop = 163505; %
+                           metro area
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.6 city(3).pop = 336501; %
+                           metro area
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.8 city(4).pop = 243985; %
+                           metro area
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.10 city(5).pop =316183; %
+                           metro area
+? 
+
+Overfull \hbox (5.27258pt too wide) in paragraph at lines 11--12
+[][][][][][][][][][][][][] 
+ []
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.12 city(6).pop = 1348381; %
+                             metro area
+? 
+
+Overfull \hbox (5.27258pt too wide) in paragraph at lines 13--14
+[][][][][][][][][][][][][][][] 
+ []
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.14 city(7).pop = 1277997; %
+                             metra area
+? 
+
+Overfull \hbox (11.27264pt too wide) in paragraph at lines 15--16
+[][][][][][][][][][][][][][][] 
+ []
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.16 city(8).pop = 496575; %
+                            metro area
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.18 city(9).pop= 2633282; %
+                            metro area (Orlando-Kissimee)
+? 
+
+Overfull \hbox (29.27283pt too wide) in paragraph at lines 19--20
+[][][][][][][][][][][][][][][] 
+ []
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.24 city(12).pop = 534359; %
+                             metro area
+? 
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.27 %
+      three-city metro area (Tampa-StPetersburg-Clearwater)
+? 
+
+Overfull \hbox (23.27277pt too wide) in paragraph at lines 28--29
+[][][][][][][][][][][][][][][] 
+ []
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.29 city(14).pop = 2.7e6/2; %
+                              three-city metro area (Tampa-StPetersburg-
+? 
+
+Overfull \hbox (29.27283pt too wide) in paragraph at lines 29--30
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (35.27289pt too wide) in paragraph at lines 35--36
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (17.2727pt too wide) in paragraph at lines 37--38
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.38 city(18).pop = 5463857/3; %
+                                three-city metro area (South Florida)
+? 
+
+Overfull \hbox (11.27264pt too wide) in paragraph at lines 38--39
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.40 city(19).pop= 314649; %
+                            metro area
+? 
+
+Overfull \hbox (23.27277pt too wide) in paragraph at lines 41--42
+[][][][][][][][][][][][][][][] 
+ []
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.42 city(20).pop = 5463857/3; %
+                                three-city metro area (South Florida)
+? 
+
+Overfull \hbox (11.27264pt too wide) in paragraph at lines 42--43
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.44 city(21).pop= 5463857/3;%
+                              three-city metro area (South Florida)
+? 
+
+Overfull \hbox (11.27264pt too wide) in paragraph at lines 45--46
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[35]
+
+! LaTeX Error: Undefined color `darkgreen'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                      
+                                          
+l.50 city(24).pop = 544758; %
+                             metro area
+? 
+) AED: lastpage setting LastPage
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[36] (A Convenient Truth A model for sea level rise forecast.aux) )
+Output written on "A Convenient Truth A model for sea level rise forecast.dvi" 
+(37 pages, 128480 bytes).

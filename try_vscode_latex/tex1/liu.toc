@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}LaTex入门}{1}
+\contentsline {subsection}{\numberline {1.1}数学公式}{1}
+\contentsline {subsubsection}{\numberline {1.1.1}数学模式}{1}
+\contentsline {paragraph}{行内模式}{1}
+\contentsline {subparagraph}{行间模式}{1}
+\contentsline {subsubsection}{\numberline {1.1.2}上下标号}{2}
+\contentsline {subsubsection}{\numberline {1.1.3}根式分式}{2}
+\contentsline {subsubsection}{\numberline {1.1.4}运算符}{2}
+\contentsline {subsubsection}{\numberline {1.1.5}省略号}{2}
+\contentsline {subsubsection}{\numberline {1.1.6}矩阵}{2}
+\contentsline {subsubsection}{\numberline {1.1.7}多行公式}{3}
+\contentsline {paragraph}{长公式}{3}
+\contentsline {subparagraph}{不对齐}{3}
+\contentsline {subparagraph}{对齐}{3}
+\contentsline {paragraph}{公式组}{3}
+\contentsline {subsection}{\numberline {1.2}分段函数}{4}
+\contentsline {subsection}{\numberline {1.3}插入图片和表格}{5}
+\contentsline {subsection}{\numberline {1.4}表格}{7}
